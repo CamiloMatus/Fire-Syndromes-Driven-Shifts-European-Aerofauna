@@ -1,6 +1,6 @@
 # Fire-Syndrome-Driven Shifts in European Aerofauna
 
-[![DOI](https://img.shields.io/badge/DOI-Pending-blue.svg)](#) 
+[![DOI](https://zenodo.org/badge/1251735482.svg)](https://doi.org/10.5281/zenodo.20637983)
 [![R](https://img.shields.io/badge/R-4.2+-blue.svg)](https://www.r-project.org/)
 
 This repository contains the source code and analytical workflow for the research article: **"Fire-syndrome-driven shifts in community and functional diversity of European vertebrate aerofauna in the early 21st century"**.
