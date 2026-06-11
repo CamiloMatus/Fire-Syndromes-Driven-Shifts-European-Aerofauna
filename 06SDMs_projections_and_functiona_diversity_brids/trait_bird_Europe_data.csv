@@ -1,0 +1,329 @@
+Scientific_Name_ID,Diet.Inv,Diet.Vend,Diet.Vect,Diet.Vfish,Diet.Vunk,Diet.Scav,Diet.Fruit,Diet.Nect,Diet.Seed,Diet.PlantO,Diet.Category,Fora.WaterBelow,Fora.WaterSurface,Fora.Ground,Fora.Understory,Fora.MidHigh,Fora.Canopy,Fora.Aerial,Beha.Pelagic,Beha.Nocturnal,Morph.BodyMass,Phen.MigrantStatus,Morph.BeakLength,Morph.BeakWidth,Morph.BeakDepth,Morph.TarsusLength,Morph.WingLength,Morph.TailLength,Morph.HandWingIndex,Ecol.Habitat,Ecol.TrophicNiche,Ecol.PrimaryLifestyle
+Corvus_corone,30,20,20,0,0,20,0,0,10,0,VertFishScav,0,0,90,0,0,0,10,0,0,570,Resident,55,15.1,18.5,59.4,323.9,179.6,36.9,Human Modified,Omnivore,Terrestrial
+Passer_domesticus,10,0,0,0,0,0,0,0,60,30,PlantSeed,0,0,50,50,0,0,0,0,0,26.5,Resident,13.5,6.3,7.4,17.9,74.9,57.2,27.3,Human Modified,Granivore,Terrestrial
+Phylloscopus_collybita,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,25,25,25,25,0,0,0,8.3,Full migrant,11.6,2.3,2.2,19.7,58.8,48.5,18.4,Forest,Invertivore,Insessorial
+Picus_viridis,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,176,Resident,45,11.5,9.8,29,165.4,103,24.7,Forest,Invertivore,Terrestrial
+Curruca_hortensis,70,0,0,0,0,0,20,10,0,0,Invertebrate,0,0,0,33,33,33,0,0,0,21.9,Full migrant,17.1,3.6,4.2,24.6,79,68.8,23.2,Woodland,Invertivore,Insessorial
+Iduna_pallida,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,10,30,30,30,0,0,0,9,Full migrant,16.6,3.7,2.9,20.8,64.9,53,22.6,Shrubland,Invertivore,Insessorial
+Accipiter_nisus,0,100,0,0,0,0,0,0,0,0,VertFishScav,0,0,20,20,20,20,20,0,0,220.8,Partial migrant,19.6,8.4,10,53.6,207.4,155.5,35.5,Forest,Vertivore,Insessorial
+Acanthis_flammea,30,0,0,0,0,0,0,0,40,30,PlantSeed,0,0,100,0,0,0,0,0,0,13,Partial migrant,11.4,4.5,6.5,15.6,75.8,58.7,33.1,Forest,Granivore,Generalist
+Acrocephalus_dumetorum,90,0,0,0,0,0,0,0,10,0,Invertebrate,0,0,20,20,40,20,0,0,0,11.2,Full migrant,16.4,3.6,3.1,22.3,62.1,53.1,20.4,Wetland,Invertivore,Insessorial
+Acrocephalus_melanopogon,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,40,60,0,0,0,0,0,10.9,Full migrant,12.7,2.6,2.5,19,56.7,47.8,19.3,Wetland,Invertivore,Insessorial
+Acrocephalus_paludicola,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,50,50,0,0,0,0,0,11.6,Full migrant,12.3,2.6,2.9,19.4,62.1,47.2,28.4,Wetland,Invertivore,Insessorial
+Acrocephalus_palustris,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,0,50,50,0,0,0,0,11.5,Full migrant,16.1,3.3,3.3,21.3,68.6,56.5,27.9,Shrubland,Invertivore,Insessorial
+Acrocephalus_schoenobaenus,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,20,60,20,0,0,0,0,11.8,Full migrant,14.9,2.9,2.8,20.9,65.4,48.9,28.2,Wetland,Invertivore,Insessorial
+Acrocephalus_scirpaceus,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,20,80,0,0,0,0,0,12.3,Full migrant,18.2,3.2,2.9,21.3,65.3,51.1,24.3,Wetland,Invertivore,Insessorial
+Actitis_hypoleucos,50,0,20,20,0,0,0,0,0,10,Omnivore,0,50,50,0,0,0,0,0,0,48,Full migrant,30.1,3.1,4,22.4,109.9,57.4,48,Wetland,Aquatic predator,Terrestrial
+Aegithalos_caudatus,60,0,0,0,0,0,10,10,10,10,Invertebrate,0,0,10,40,10,40,0,0,0,8.6,Resident,7.6,2.5,3.3,15.9,63.1,87.8,22,Forest,Invertivore,Insessorial
+Aegolius_funereus,30,70,0,0,0,0,0,0,0,0,VertFishScav,0,0,90,10,0,0,0,0,1,137.2,Partial migrant,18.2,7.9,10.5,23.4,169.1,102.5,31.5,Forest,Vertivore,Insessorial
+Alauda_arvensis,40,0,0,0,0,0,0,0,40,20,PlantSeed,0,0,100,0,0,0,0,0,0,37.3,Partial migrant,14.6,4.4,4.7,23.6,106.7,67.6,33.6,Grassland,Omnivore,Terrestrial
+Alcedo_atthis,30,0,0,70,0,0,0,0,0,0,VertFishScav,100,0,0,0,0,0,0,0,0,31.1,Resident,42.2,5.7,7.4,9.9,73.3,32.3,26.9,Riverine,Aquatic predator,Insessorial
+Alectoris_barbara,10,0,0,0,0,0,20,0,20,50,PlantSeed,0,0,80,20,0,0,0,0,0,416.3,Resident,22.6,8.4,9.5,41.4,163,97.2,28.5,Rock,Omnivore,Terrestrial
+Alectoris_graeca,30,0,0,0,0,0,0,0,0,70,PlantSeed,0,0,100,0,0,0,0,0,0,594.1,Resident,20.8,8.3,8.7,40.2,155.7,82.3,36.9,Rock,Herbivore terrestrial,Terrestrial
+Alectoris_rufa,10,0,0,0,0,0,10,0,20,60,PlantSeed,0,0,100,0,0,0,0,0,0,527.9,Resident,23.4,7.6,8.7,41.3,155.3,90.5,25.8,Shrubland,Herbivore terrestrial,Terrestrial
+Anarhynchus_alexandrinus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,40,60,0,0,0,0,0,0,42.3,Partial migrant,16.3,3.1,3.1,26.5,106.2,44.2,55,Coastal,Aquatic predator,Terrestrial
+Anas_acuta,20,0,0,0,10,0,0,0,20,50,PlantSeed,0,70,30,0,0,0,0,0,0,944.6,Full migrant,48.1,14.5,14.8,36.9,256.7,124.7,57.8,Wetland,Herbivore aquatic,Aquatic
+Anas_crecca,30,0,0,0,0,0,0,0,20,50,PlantSeed,0,100,0,0,0,0,0,0,0,341.9,Partial migrant,35.8,12.1,11.4,25.9,180.4,61.2,53.5,Wetland,Herbivore aquatic,Aquatic
+Anas_platyrhynchos,40,0,10,10,0,0,0,0,20,20,Omnivore,20,60,20,0,0,0,0,0,0,843.4,Partial migrant,58.5,20.8,17.8,40.6,263.4,86.9,50.7,Wetland,Herbivore aquatic,Aquatic
+Anser_anser,0,0,0,0,0,0,10,0,10,80,PlantSeed,0,20,80,0,0,0,0,0,0,3302.4,Full migrant,61.2,22.5,21.6,76.2,435.7,136.1,47.2,Wetland,Herbivore terrestrial,Terrestrial
+Anthus_campestris,70,0,10,0,0,0,0,0,20,0,Invertebrate,0,0,100,0,0,0,0,0,0,23,Full migrant,16.1,3.5,3.9,24.7,91.2,70.6,28.5,Grassland,Invertivore,Terrestrial
+Anthus_cervinus,90,0,0,0,0,0,0,0,10,0,Invertebrate,0,0,80,20,0,0,0,0,0,20.9,Full migrant,14.1,3,3,21.7,83.3,56.6,27.5,Grassland,Invertivore,Terrestrial
+Anthus_petrosus,60,0,0,20,0,0,0,0,20,0,Invertebrate,0,0,80,20,0,0,0,0,0,22.4,Partial migrant,16.8,3.2,3.6,23,88.2,62.9,26.5,Rock,Invertivore,Terrestrial
+Anthus_pratensis,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,0,70,20,10,0,0,0,0,18.4,Partial migrant,14.2,3.1,3.1,21.5,77.8,56.3,24.3,Grassland,Invertivore,Terrestrial
+Anthus_spinoletta,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,80,20,0,0,0,0,0,23.9,Full migrant,16.4,3.1,3.4,22.9,86.9,63.3,23.4,Grassland,Invertivore,Terrestrial
+Anthus_trivialis,60,0,0,0,0,0,10,10,10,10,Invertebrate,0,0,100,0,0,0,0,0,0,23.3,Full migrant,15.7,3.3,3.8,20.6,86.1,59.9,29.3,Woodland,Invertivore,Terrestrial
+Apus_apus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,0,0,0,100,0,0,37.6,Full migrant,10.2,4,2.8,8.8,161.3,67.4,71.6,Human Modified,Invertivore,Aerial
+Apus_pallidus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,0,0,0,100,0,0,41.9,Full migrant,11.3,3.8,2.3,11.4,166.8,72,72.3,Rock,Invertivore,Aerial
+Aquila_adalberti,0,90,10,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,2958,Partial migrant,61.2,21.1,31,98.4,592.5,297,39.7,Woodland,Vertivore,Generalist
+Aquila_chrysaetos,0,80,10,0,0,10,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,4248,Partial migrant,56.8,18.5,28.4,101.4,603.1,307.1,36.7,Grassland,Vertivore,Aerial
+Aquila_fasciata,0,90,10,0,0,0,0,0,0,0,VertFishScav,0,0,70,0,10,10,10,0,0,1936.5,Partial migrant,45.7,16.2,23.7,93.2,486.8,260,37.3,Rock,Vertivore,Aerial
+Aquila_heliaca,0,70,20,0,0,10,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,3125.2,Full migrant,59,19.8,28.4,93.7,582.2,316.2,39.5,Woodland,Vertivore,Generalist
+Ardea_alba,40,10,30,20,0,0,0,0,0,0,VertFishScav,0,50,50,0,0,0,0,0,0,871.3,Partial migrant,126.3,12,18.1,141.6,378.8,140.5,32.1,Wetland,Aquatic predator,Terrestrial
+Ardea_cinerea,20,10,10,60,0,0,0,0,0,0,VertFishScav,0,70,30,0,0,0,0,0,0,1443,Resident,138.9,18.7,25.4,137.9,441,169.1,34.6,Wetland,Aquatic predator,Terrestrial
+Ardea_purpurea,30,20,30,20,0,0,0,0,0,0,VertFishScav,0,70,30,0,0,0,0,0,0,1064.5,Full migrant,125.9,13.6,19.6,117.5,349.7,113.2,33.9,Wetland,Aquatic predator,Terrestrial
+Ardeola_ralloides,10,0,0,60,30,0,0,0,0,0,VertFishScav,0,50,50,0,0,0,0,0,0,287,Full migrant,72.8,9.1,11.8,59.4,213.1,75.8,32.4,Wetland,Aquatic predator,Terrestrial
+Asio_flammeus,0,100,0,0,0,0,0,0,0,0,VertFishScav,0,0,90,0,10,0,0,0,1,322.6,Full migrant,27.3,9,13,42.5,297.2,146.5,47.5,Grassland,Vertivore,Aerial
+Athene_noctua,70,20,10,0,0,0,0,0,0,0,Invertebrate,0,0,80,10,10,0,0,0,1,168.9,Resident,18.8,7.8,11.4,32.6,157,74.2,31.8,Human Modified,Omnivore,Insessorial
+Aythya_ferina,10,0,10,10,0,0,0,0,20,50,PlantSeed,50,50,0,0,0,0,0,0,0,823,Resident,50.5,17.9,13.7,35,208.6,53.7,50.1,Wetland,Herbivore aquatic,Aquatic
+Aythya_fuligula,50,0,0,0,0,10,0,0,20,20,Omnivore,60,40,0,0,0,0,0,0,0,701.2,Partial migrant,43.9,19.5,13.2,31.3,196.9,53.4,50.1,Wetland,Herbivore aquatic,Aquatic
+Aythya_nyroca,10,0,10,10,0,0,0,0,20,50,PlantSeed,50,50,0,0,0,0,0,0,0,574,Full migrant,41.2,18.4,12.5,28.6,182.5,53,48.9,Wetland,Herbivore aquatic,Aquatic
+Botaurus_stellaris,10,0,30,60,0,0,0,0,0,0,VertFishScav,0,50,50,0,0,0,0,0,0,1319.5,Partial migrant,77.3,11,16.1,94.3,323.8,98.3,31.2,Wetland,Aquatic predator,Terrestrial
+Bubo_bubo,10,80,10,0,0,0,0,0,0,0,VertFishScav,0,0,80,10,10,0,0,0,1,2668.5,Resident,50.4,17.9,26,79.9,438.5,244.5,33,Rock,Vertivore,Insessorial
+Buteo_buteo,0,90,10,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,759.1,Partial migrant,35.9,12.6,16.6,75.8,382.9,214.4,38.3,Grassland,Vertivore,Insessorial
+Calandrella_brachydactyla,60,0,0,0,0,0,0,0,20,20,Invertebrate,0,0,100,0,0,0,0,0,0,21.1,Partial migrant,12.6,4.3,5.1,19.8,93.5,59.8,34.5,Grassland,Omnivore,Terrestrial
+Calidris_alpina,80,0,0,0,0,0,0,0,0,20,Invertebrate,0,20,80,0,0,0,0,0,0,51.9,Full migrant,36.9,2.9,4.3,24.7,115.1,48.6,53.4,Wetland,Aquatic predator,Terrestrial
+Calidris_canutus,80,0,0,10,0,0,0,0,10,0,Invertebrate,0,0,100,0,0,0,0,0,0,141.9,Full migrant,37.5,4.1,5.7,29.9,164.4,60.4,57.9,Coastal,Aquatic predator,Terrestrial
+Calidris_falcinellus,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,20,80,0,0,0,0,0,0,37.1,Full migrant,32.8,3.7,4.4,21.1,99.2,36.6,53.9,Wetland,Aquatic predator,Terrestrial
+Calidris_ferruginea,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,50,50,0,0,0,0,0,0,58.1,Full migrant,38.5,3.2,4.3,29.1,129,48.6,54.9,Coastal,Aquatic predator,Terrestrial
+Calidris_minuta,70,0,0,0,0,0,0,0,0,30,Invertebrate,0,50,50,0,0,0,0,0,0,21.1,Full migrant,20.4,2.5,3.3,21.5,93.2,35.6,50.6,Grassland,Aquatic predator,Terrestrial
+Calidris_pugnax,50,0,10,10,0,0,0,0,10,20,Omnivore,0,20,60,20,0,0,0,0,0,131.7,Full migrant,37.6,3.8,5.1,42.9,163.7,60,51,Wetland,Aquatic predator,Terrestrial
+Calidris_temminckii,90,0,0,0,0,0,0,0,0,10,Invertebrate,0,20,80,0,0,0,0,0,0,23,Full migrant,19,2.3,3.1,17.8,96.7,46.2,50,Grassland,Aquatic predator,Terrestrial
+Caprimulgus_europaeus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,20,60,10,0,10,0,1,67,Full migrant,20.2,4.5,3.1,17.3,183.2,130.6,53.4,Shrubland,Invertivore,Aerial
+Caprimulgus_ruficollis,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,30,10,20,0,40,0,1,68.5,Full migrant,23.7,5,3,20.4,198.2,147.8,54,Forest,Invertivore,Aerial
+Carduelis_carduelis,10,0,0,0,0,0,20,0,40,30,PlantSeed,0,0,20,60,20,0,0,0,0,16,Resident,15.4,5.5,7.2,14.7,77.4,48.6,33.4,Woodland,Granivore,Insessorial
+Carduelis_corsicana,20,0,0,0,0,0,0,0,40,40,PlantSeed,0,0,100,0,0,0,0,0,0,12,Resident,10.6,4.2,5.3,14.5,72.1,51,29.4,Shrubland,Granivore,Generalist
+Carpodacus_erythrinus,10,0,0,0,0,0,20,10,30,30,PlantSeed,0,0,50,50,0,0,0,0,0,24,Full migrant,12,6.8,7.9,16.4,80.2,58.6,30.8,Shrubland,Granivore,Insessorial
+Cecropis_rufula,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,30,20,20,30,0,0,22.2,Full migrant,11.3,3.8,3,14.3,122.2,96.1,53.2,Grassland,Invertivore,Aerial
+Certhia_brachydactyla,70,0,0,0,0,0,0,0,30,0,Invertebrate,0,0,40,30,30,0,0,0,0,8.2,Resident,18.7,2,2.5,14.9,62.1,57.1,17.7,Forest,Invertivore,Insessorial
+Certhia_familiaris,60,0,0,0,0,0,0,0,40,0,Invertebrate,0,0,40,30,30,0,0,0,0,9,Resident,18.1,2,2.6,14.6,64.5,60.3,19.2,Forest,Invertivore,Insessorial
+Cettia_cetti,90,0,0,0,0,0,0,0,10,0,Invertebrate,0,0,80,20,0,0,0,0,0,13.2,Resident,14.3,2.4,3,20.3,60.6,58.2,14.3,Shrubland,Invertivore,Generalist
+Charadrius_hiaticula,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,64,Partial migrant,16.1,3.3,3.7,25.3,126,60.2,53.5,Coastal,Aquatic predator,Terrestrial
+Chersophilus_duponti,50,0,0,0,0,0,0,0,50,0,Omnivore,0,0,100,0,0,0,0,0,0,39.4,Partial migrant,22.5,4.1,4.7,22.3,95.7,64.5,25.9,Grassland,Omnivore,Terrestrial
+Chlidonias_hybrida,40,0,30,30,0,0,0,0,0,0,VertFishScav,20,50,0,30,0,0,0,0,0,83.7,Full migrant,35,4.3,7.5,23,231.8,85.8,63.6,Wetland,Aquatic predator,Aerial
+Chlidonias_leucopterus,80,0,10,10,0,0,0,0,0,0,Invertebrate,0,30,30,30,10,0,0,0,0,54.2,Full migrant,30,3.8,5.7,18.7,208.2,75.4,61.4,Wetland,Aquatic predator,Aerial
+Chlidonias_niger,40,0,30,30,0,0,0,0,0,0,VertFishScav,10,90,0,0,0,0,0,0,0,65.3,Full migrant,31.1,3.5,5.4,15.8,201.7,77.8,62.1,Wetland,Aquatic predator,Aerial
+Chloris_chloris,0,0,0,0,0,0,0,0,100,0,PlantSeed,0,0,40,30,30,0,0,0,0,26,Resident,14.4,7.6,8.8,17.3,85.3,55.7,32.5,Woodland,Granivore,Generalist
+Chroicocephalus_genei,40,0,0,40,0,0,0,0,0,20,Omnivore,20,50,20,10,0,0,0,0,0,281,Partial migrant,52.1,5,9.4,49.4,300.8,110.2,56.9,Coastal,Aquatic predator,Generalist
+Chroicocephalus_ridibundus,70,0,0,20,0,0,0,0,10,0,Invertebrate,0,50,50,0,0,0,0,0,0,284,Partial migrant,43.4,4,7.9,41.4,291.2,109.8,58.6,Wetland,Aquatic predator,Generalist
+Ciconia_ciconia,20,20,40,20,0,0,0,0,0,0,VertFishScav,0,30,70,0,0,0,0,0,0,3445.8,Full migrant,189.1,23.5,33.1,217.2,565.6,249.8,45.9,Grassland,Omnivore,Terrestrial
+Ciconia_nigra,10,10,10,70,0,0,0,0,0,0,VertFishScav,0,100,0,0,0,0,0,0,0,2926,Full migrant,184.5,16.6,27.4,192.6,529.5,235.6,43.1,Woodland,Aquatic predator,Terrestrial
+Cinclus_cinclus,80,0,0,20,0,0,0,0,0,0,Invertebrate,40,40,20,0,0,0,0,0,0,61.5,Resident,22.1,3.4,4.4,28.4,88.9,50.1,27.6,Riverine,Aquatic predator,Generalist
+Circaetus_gallicus,0,10,90,0,0,0,0,0,0,0,VertFishScav,0,0,60,0,20,0,20,0,0,1699.1,Full migrant,47,15.5,24.6,90.9,537,280.4,40.5,Woodland,Vertivore,Aerial
+Circus_aeruginosus,10,60,20,10,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,704.1,Partial migrant,37.3,11.9,16.2,79.3,405.7,233.9,45.6,Wetland,Vertivore,Aerial
+Circus_cyaneus,10,70,10,0,0,10,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,393,Full migrant,30.1,9.7,13,72.1,352.4,131.7,44.7,Grassland,Vertivore,Aerial
+Circus_macrourus,20,70,10,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,384.4,Full migrant,29.5,9.7,12.7,68,351.2,226.6,52.4,Grassland,Vertivore,Aerial
+Circus_pygargus,10,80,10,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,310.8,Full migrant,26.1,8.6,11.2,62,362.3,224.8,52,Grassland,Vertivore,Aerial
+Clamator_glandarius,90,0,10,0,0,0,0,0,0,0,Invertebrate,0,0,50,30,20,0,0,0,0,143,Full migrant,29.8,8.1,8.4,33.4,194,197.2,41.9,Shrubland,Invertivore,Insessorial
+Clanga_clanga,10,30,30,20,0,10,0,0,0,0,VertFishScav,0,0,50,20,30,0,0,0,0,2154.3,Full migrant,50.2,15.6,23.2,96.8,510.6,261.4,37.9,Wetland,Vertivore,Generalist
+Clanga_pomarina,20,40,40,0,0,0,0,0,0,0,VertFishScav,0,0,20,20,20,20,20,0,0,1359.4,Full migrant,47.3,13.4,19.5,91.6,459.3,213,40.6,Forest,Vertivore,Generalist
+Coccothraustes_coccothraustes,10,0,0,0,0,0,20,0,30,40,PlantSeed,0,0,0,20,60,20,0,0,0,56.6,Partial migrant,23,12,15,21,102,57.2,32.9,Forest,Omnivore,Insessorial
+Coloeus_monedula,30,10,0,0,0,0,30,0,30,0,Omnivore,0,0,50,20,20,10,0,0,0,246,Partial migrant,35.2,11.2,13.3,43.3,231.1,122.4,39.1,Human Modified,Omnivore,Terrestrial
+Columba_livia,10,0,0,0,0,0,0,0,60,30,PlantSeed,0,0,80,20,0,0,0,0,0,354.2,Resident,23.2,4.3,5,26.5,219.6,105.5,45.1,Human Modified,Granivore,Terrestrial
+Columba_oenas,20,0,0,0,0,0,0,0,40,40,PlantSeed,0,0,80,20,0,0,0,0,0,290.8,Resident,23.2,6.8,7.8,26.4,214.8,119.4,42.5,Woodland,Omnivore,Terrestrial
+Columba_palumbus,0,0,0,0,0,0,30,0,30,40,PlantSeed,0,0,80,20,0,0,0,0,0,490,Resident,27.8,8,7.8,31.5,246.4,153.2,41.2,Woodland,Omnivore,Terrestrial
+Coracias_garrulus,90,0,0,0,10,0,0,0,0,0,Invertebrate,0,0,80,10,0,0,10,0,0,146,Full migrant,40.2,9.8,12.9,23.7,190.8,122.6,37.5,Woodland,Invertivore,Insessorial
+Corvus_corax,10,20,10,10,0,20,10,0,10,10,VertFishScav,0,0,80,0,10,0,10,0,0,928,Partial migrant,77,21.9,27.9,67.1,419.7,228.7,39.8,Forest,Omnivore,Terrestrial
+Corvus_frugilegus,30,10,10,0,0,10,0,0,40,0,Omnivore,0,0,90,10,0,0,0,0,0,452.1,Resident,59.5,14.8,18.3,55.7,312.3,166.8,41,Grassland,Omnivore,Terrestrial
+Coturnix_coturnix,20,0,0,0,0,0,0,0,80,0,PlantSeed,0,0,100,0,0,0,0,0,0,96.3,Full migrant,15.6,5.5,5.2,24.5,106.2,38.3,41,Human Modified,Granivore,Terrestrial
+Crex_crex,30,20,10,0,0,0,0,0,20,20,Omnivore,0,0,70,30,0,0,0,0,0,154.9,Full migrant,24.2,3.5,6.4,40.5,137,51.2,34.1,Grassland,Omnivore,Terrestrial
+Cuculus_canorus,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,20,20,40,20,0,0,0,111.4,Full migrant,26,7.6,7.6,21.4,192,158.1,43.9,Forest,Invertivore,Insessorial
+Curruca_balearica,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,100,0,0,0,0,0,9.8,Resident,12.3,2.4,2.4,18.7,50.8,58.8,16.7,Shrubland,Invertivore,Insessorial
+Curruca_cantillans,60,0,0,0,0,0,20,10,10,0,Invertebrate,0,0,10,20,60,10,0,0,0,9.6,Full migrant,12.4,2.4,3.3,17.8,61,52.3,22.3,Shrubland,Invertivore,Insessorial
+Curruca_communis,60,0,0,0,0,0,30,0,10,0,Invertebrate,0,0,0,100,0,0,0,0,0,15.1,Full migrant,13.6,2.8,3.3,21.3,72.6,63.3,24.2,Shrubland,Invertivore,Insessorial
+Curruca_conspicillata,70,0,0,0,0,0,20,10,0,0,Invertebrate,0,0,50,50,0,0,0,0,0,9,Full migrant,11.7,2.4,2.4,17.9,55.4,51.1,19.4,Shrubland,Invertivore,Insessorial
+Curruca_curruca,60,0,0,0,0,0,20,10,10,0,Invertebrate,0,0,0,33,33,33,0,0,0,11.4,Full migrant,12.4,2.8,3.1,19.1,65.1,56.9,22,Shrubland,Invertivore,Insessorial
+Curruca_melanocephala,50,0,0,0,0,0,40,10,0,0,Omnivore,0,0,20,60,20,0,0,0,0,11.7,Partial migrant,13.7,2.9,3,20.4,58.7,61.3,18,Shrubland,Invertivore,Insessorial
+Curruca_nisoria,70,0,0,0,0,0,30,0,0,0,Invertebrate,0,0,0,80,0,20,0,0,0,22.5,Full migrant,16.4,3.7,4.3,24,88.3,71.7,27.2,Shrubland,Invertivore,Insessorial
+Curruca_ruppeli,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,10,90,0,0,0,0,0,12.8,Full migrant,14.6,2.8,3.1,21,69,63.6,23.1,Shrubland,Invertivore,Insessorial
+Curruca_subalpina,60,0,0,0,0,0,20,10,10,0,Invertebrate,0,0,10,20,60,10,0,0,0,9.6,Full migrant,12.4,2.4,3.3,17.8,61,52.3,22.3,Shrubland,Invertivore,Insessorial
+Cyanistes_caeruleus,50,0,0,0,0,0,20,10,20,0,Omnivore,0,0,10,30,30,30,0,0,0,11.1,Resident,9.7,3.2,4.2,15.2,65.6,51.4,21,Forest,Invertivore,Insessorial
+Cyanopica_cooki,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,0,20,60,20,0,0,0,70.4,Resident,27.4,7.7,8.3,34.6,132.1,179.1,16.9,Woodland,Omnivore,Generalist
+Cygnus_olor,10,0,10,0,0,0,0,0,0,80,PlantSeed,0,100,0,0,0,0,0,0,0,10682,Full migrant,96.1,31,26.4,96.1,581.5,198.1,42.1,Wetland,Herbivore aquatic,Aquatic
+Delichon_urbicum,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,0,33,33,33,0,0,14.5,Full migrant,10.7,3.7,2.9,11.3,108.1,61.3,54.3,Human Modified,Invertivore,Aerial
+Dendrocopos_leucotos,70,0,0,0,0,0,20,0,10,0,Invertebrate,0,0,0,20,60,10,10,0,0,116.8,Resident,35.8,9.1,8.5,24.7,142.8,91.6,29.9,Forest,Invertivore,Insessorial
+Dendrocopos_major,50,10,0,0,0,10,0,0,30,0,Omnivore,0,0,0,20,40,30,10,0,0,74.9,Resident,27.9,9.3,8.7,23.9,136.2,88,29.3,Woodland,Omnivore,Insessorial
+Dendrocoptes_medius,70,0,0,0,0,0,20,0,10,0,Invertebrate,0,0,10,30,30,30,0,0,0,59,Resident,25,5.7,6.3,19.5,123.6,83.9,28.1,Woodland,Invertivore,Insessorial
+Dryobates_minor,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,0,20,20,60,0,0,0,19.8,Resident,16.5,4.5,4.7,14.3,90.2,60.1,27.4,Forest,Invertivore,Insessorial
+Dryocopus_martius,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,40,40,20,0,0,0,0,321,Resident,65.6,15.4,13.2,35.6,237.8,175.8,26.4,Forest,Invertivore,Insessorial
+Egretta_garzetta,60,0,20,20,0,0,0,0,0,0,Invertebrate,0,70,30,0,0,0,0,0,0,312,Partial migrant,94.6,8.9,11.3,98.8,252.5,94.2,33.1,Wetland,Aquatic predator,Terrestrial
+Elanus_caeruleus,20,60,20,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,259.8,Partial migrant,30.9,9.2,11.3,32.1,286.3,127.7,45.2,Grassland,Vertivore,Aerial
+Emberiza_caesia,50,0,0,0,0,0,0,0,50,0,Omnivore,0,0,100,0,0,0,0,0,0,19.9,Full migrant,14.6,3.9,4.9,18.3,83.4,64.4,28.1,Shrubland,Granivore,Terrestrial
+Emberiza_calandra,30,0,0,0,0,0,0,0,50,20,PlantSeed,0,0,90,10,0,0,0,0,0,48.5,Partial migrant,16.2,6,8.2,24.4,97.2,70.5,26.5,Grassland,Omnivore,Terrestrial
+Emberiza_cirlus,30,0,0,0,0,0,0,0,60,10,PlantSeed,0,0,100,0,0,0,0,0,0,25.6,Partial migrant,13.4,4.6,6.2,18.2,77.4,68,20.2,Shrubland,Granivore,Terrestrial
+Emberiza_citrinella,30,0,0,0,0,0,0,0,60,10,PlantSeed,0,0,100,0,0,0,0,0,0,29.7,Partial migrant,13.4,4.7,5.9,19.1,88.2,72.8,25.7,Shrubland,Granivore,Terrestrial
+Emberiza_hortulana,70,0,0,0,0,0,0,0,30,0,Invertebrate,0,0,50,50,0,0,0,0,0,19.9,Full migrant,15.7,4.5,5.4,18.6,85.6,65.9,28.8,Shrubland,Omnivore,Generalist
+Emberiza_melanocephala,30,0,0,0,0,0,0,0,60,10,PlantSeed,0,0,0,0,40,60,0,0,0,28.3,Full migrant,16.8,5.1,6.8,21.3,94.3,72.2,29.6,Shrubland,Omnivore,Generalist
+Emberiza_rustica,30,0,0,0,0,0,0,0,70,0,PlantSeed,0,0,0,20,60,20,0,0,0,20.5,Full migrant,12.1,4,5.4,20.5,78.4,62.8,25.2,Forest,Granivore,Generalist
+Emberiza_schoeniclus,30,0,0,0,0,0,0,0,50,20,PlantSeed,0,0,90,10,0,0,0,0,0,18.4,Partial migrant,11.3,4,5.1,19.3,77.9,63.6,21.1,Wetland,Omnivore,Terrestrial
+Erithacus_rubecula,40,0,10,10,0,10,20,0,10,0,Omnivore,0,0,50,50,0,0,0,0,0,17.7,Full migrant,14,2.9,3.3,24.5,71.6,56.9,19.9,Forest,Omnivore,Generalist
+Eudromias_morinellus,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,80,20,0,0,0,0,0,108.2,Full migrant,18.8,3.5,4.3,35.6,147.4,66.3,55.9,Grassland,Invertivore,Terrestrial
+Falco_columbarius,20,80,0,0,0,0,0,0,0,0,VertFishScav,0,0,0,33,33,0,33,0,0,188.5,Full migrant,16.6,8,10.5,34.3,199.6,116.6,48.9,Woodland,Vertivore,Aerial
+Falco_eleonorae,50,50,0,0,0,0,0,0,0,0,Omnivore,0,0,0,10,30,30,30,0,0,390,Full migrant,22.1,10.6,12.9,33.1,311.9,160.5,55,Coastal,Omnivore,Aerial
+Falco_naumanni,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,40,20,20,0,20,0,0,152.1,Full migrant,19.8,9.5,11,29.9,229.3,132.4,53.9,Grassland,Invertivore,Generalist
+Falco_peregrinus,10,80,10,0,0,0,0,0,0,0,VertFishScav,0,0,20,20,20,20,20,0,0,760,Partial migrant,31.1,13.7,15.4,45.1,314.7,143,52.2,Grassland,Vertivore,Aerial
+Falco_subbuteo,70,30,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,33,33,0,33,0,0,208.2,Full migrant,17.9,10.4,11.8,31.7,260.7,129.2,57.8,Woodland,Invertivore,Aerial
+Falco_tinnunculus,10,90,0,0,0,0,0,0,0,0,VertFishScav,0,0,80,10,10,0,0,0,0,183.2,Full migrant,20.8,10.6,11.5,39.1,241,154.5,51,Shrubland,Vertivore,Aerial
+Falco_vespertinus,80,10,10,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,151.5,Full migrant,17.1,9.4,10.5,28.1,237.9,125.2,55.6,Grassland,Invertivore,Aerial
+Ficedula_albicollis,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,0,0,20,80,0,0,0,12.7,Full migrant,12.4,3.8,3.2,16.3,80.6,51.6,31.9,Woodland,Invertivore,Insessorial
+Ficedula_hypoleuca,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,33,33,33,0,0,0,13.8,Full migrant,12.8,4.1,3.2,17.6,79.3,52.1,30.4,Forest,Invertivore,Insessorial
+Ficedula_parva,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,30,50,20,0,0,0,10.8,Full migrant,12.8,3.5,2.9,15.4,67,52.8,25.3,Woodland,Invertivore,Insessorial
+Ficedula_semitorquata,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,20,40,40,0,0,0,14.4,Full migrant,11.8,3.6,3.3,16.9,80.8,53,28.9,Woodland,Invertivore,Insessorial
+Fringilla_coelebs,60,0,0,0,0,0,0,0,20,20,Invertebrate,0,0,40,30,30,0,0,0,0,23.8,Partial migrant,14.7,5.5,6.7,17.8,85.9,65.9,27.6,Forest,Invertivore,Generalist
+Fulica_atra,10,10,10,10,0,0,0,0,30,30,PlantSeed,50,50,0,0,0,0,0,0,0,717.1,Resident,37.7,5.6,10.5,57,198.2,53.9,39.6,Wetland,Herbivore aquatic,Generalist
+Galerida_theklae,60,0,0,0,0,0,0,0,30,10,Invertebrate,0,0,100,0,0,0,0,0,0,38.2,Resident,16.9,4.6,5.4,24.5,98.4,58.8,23.3,Shrubland,Omnivore,Terrestrial
+Gallinula_chloropus,20,0,10,10,0,0,20,0,20,20,Omnivore,0,20,60,20,0,0,0,0,0,339.6,Resident,33.9,4.3,8.1,45.9,165.5,69,32.2,Wetland,Omnivore,Terrestrial
+Garrulus_glandarius,40,10,0,0,0,0,30,0,20,0,Omnivore,0,0,60,20,20,0,0,0,0,159.5,Partial migrant,33,9,11.6,39.1,181.1,150.2,19.4,Forest,Omnivore,Insessorial
+Gelochelidon_nilotica,50,10,20,20,0,0,0,0,0,0,Omnivore,0,30,30,30,10,0,0,1,0,218.3,Full migrant,42.1,6.2,10.8,31.5,308.1,123.5,67,Coastal,Omnivore,Aerial
+Geronticus_eremita,50,10,20,10,0,0,0,0,0,10,Omnivore,0,0,100,0,0,0,0,0,0,1202,Full migrant,132.2,11.3,15.8,72.6,401.8,184.2,42.8,Rock,Invertivore,Terrestrial
+Glaucidium_passerinum,0,100,0,0,0,0,0,0,0,0,VertFishScav,0,0,60,20,20,0,0,0,1,57.9,Partial migrant,14.3,6.1,9.1,15.4,101.2,58.6,25.9,Forest,Vertivore,Insessorial
+Grus_grus,10,10,10,0,0,0,10,0,20,40,PlantSeed,0,50,50,0,0,0,0,0,0,5500,Full migrant,108.1,10.7,16.8,234.4,540.6,193.4,43,Wetland,Omnivore,Terrestrial
+Gulosus_aristotelis,0,0,0,100,0,0,0,0,0,0,VertFishScav,100,0,0,0,0,0,0,1,0,1764.3,Resident,66,10.6,13.1,61.6,262.6,140.2,33.2,Marine,Aquatic predator,Aquatic
+Gypaetus_barbatus,0,0,0,0,0,100,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,5695,Partial migrant,78.2,20.8,28.1,103.6,760.6,468,49.5,Rock,Scavenger,Terrestrial
+Gyps_fulvus,0,0,0,0,0,100,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,7436,Resident,78.8,23.8,33.8,109.9,687.2,291.2,39.2,Grassland,Scavenger,Terrestrial
+Haematopus_ostralegus,90,0,0,10,0,0,0,0,0,0,Invertebrate,0,40,60,0,0,0,0,0,0,526,Resident,76.1,7.5,11.8,49.9,250.3,106,51.2,Coastal,Aquatic predator,Terrestrial
+Haliaeetus_albicilla,0,30,0,40,0,30,0,0,0,0,VertFishScav,0,50,20,0,20,0,10,0,0,4729.3,Partial migrant,74.1,22.9,33.9,95,599.5,294.2,38,Rock,Aquatic predator,Aerial
+Hieraaetus_pennatus,10,90,0,0,0,0,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,823.8,Full migrant,33.8,10.1,17,65.3,361.8,198,42,Forest,Vertivore,Generalist
+Himantopus_himantopus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,100,0,0,0,0,0,0,0,176.8,Partial migrant,65.7,4.5,4.7,110.8,223.8,74,52.2,Wetland,Aquatic predator,Terrestrial
+Hippolais_icterina,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,0,0,20,80,0,0,0,13.2,Full migrant,17.5,3.8,3.4,20.6,77.9,54.6,30.8,Woodland,Invertivore,Insessorial
+Hippolais_olivetorum,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,0,0,50,50,0,0,0,17.5,Full migrant,18.5,4.8,4.1,22.6,86.9,69.2,28.6,Human Modified,Invertivore,Insessorial
+Hippolais_polyglotta,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,0,40,20,40,0,0,0,11,Full migrant,14.5,3.8,3.2,20.4,66.2,48.6,21.2,Woodland,Invertivore,Insessorial
+Hirundo_rustica,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,30,30,40,0,0,0,0,17.9,Full migrant,12.4,4.5,2.7,11.7,115.8,71.4,52.6,Human Modified,Invertivore,Aerial
+Hydrocoloeus_minutus,80,0,0,20,0,0,0,0,0,0,Invertebrate,10,60,30,0,0,0,0,0,0,118,Partial migrant,26.6,3,5.3,25.9,218.9,88.8,57.9,Coastal,Aquatic predator,Generalist
+Hydroprogne_caspia,0,10,0,80,0,10,0,0,0,0,VertFishScav,80,20,0,0,0,0,0,1,0,655,Full migrant,78.7,10.4,19.2,42.6,410.7,148.7,65.1,Wetland,Aquatic predator,Aerial
+Ichthyaetus_ichthyaetus,20,30,10,30,0,0,0,0,10,0,VertFishScav,10,50,40,0,0,0,0,0,0,1378.8,Full migrant,73,8.9,19.5,71.5,470.8,172.8,54.7,Coastal,Omnivore,Generalist
+Ichthyaetus_melanocephalus,40,20,0,30,0,10,0,0,0,0,VertFishScav,0,50,50,0,0,0,0,0,0,256,Partial migrant,42.2,5.4,11.2,48.3,302.4,113.2,57.1,Coastal,Omnivore,Generalist
+Jynx_torquilla,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,60,20,20,0,0,0,0,35,Full migrant,17.3,3.7,3.9,19.6,87.4,68.2,27.1,Woodland,Invertivore,Terrestrial
+Lanius_collurio,60,10,20,0,0,0,10,0,0,0,Invertebrate,0,0,50,20,10,20,0,0,0,28.4,Full migrant,18.7,5.6,7,23.8,93.7,75.9,31,Woodland,Invertivore,Insessorial
+Lanius_meridionalis,60,20,20,0,0,0,0,0,0,0,Invertebrate,0,0,0,50,50,0,0,0,0,60.4,Partial migrant,22.9,6.7,8.9,30.6,104.1,106.2,23.8,Shrubland,Invertivore,Insessorial
+Lanius_minor,90,10,0,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,46.5,Full migrant,20,6.9,9.2,25.5,118,87.6,36,Grassland,Invertivore,Insessorial
+Lanius_senator,80,10,10,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,36,Full migrant,17.9,5.9,7.3,24.2,97.2,75.1,31.4,Shrubland,Invertivore,Insessorial
+Larus_argentatus,30,10,0,40,0,20,0,0,0,0,VertFishScav,20,40,40,0,0,0,0,1,0,1091,Partial migrant,74,8.9,19.6,63.2,430.8,170.2,53.4,Coastal,Aquatic predator,Generalist
+Larus_cachinnans,30,20,0,40,0,10,0,0,0,0,VertFishScav,40,30,30,0,0,0,0,0,0,1111.9,Full migrant,65.2,8,16.5,66.9,427.2,161.8,56.5,Coastal,Omnivore,Generalist
+Larus_fuscus,30,20,0,30,0,10,10,0,0,0,VertFishScav,40,30,30,0,0,0,0,0,0,762.4,Partial migrant,62.3,7.9,15.8,61.5,412.2,147,57.4,Coastal,Aquatic predator,Generalist
+Larus_marinus,20,20,0,0,0,20,20,0,20,0,Omnivore,0,20,80,0,0,0,0,1,0,1649.7,Partial migrant,79.1,10.2,23.5,74.2,478.2,185.7,52.3,Coastal,Omnivore,Terrestrial
+Larus_michahellis,30,20,0,40,0,10,0,0,0,0,VertFishScav,40,30,30,0,0,0,0,0,0,1111.9,Partial migrant,67.6,8.6,18.2,66,422.8,163,54.6,Coastal,Aquatic predator,Generalist
+Limosa_lapponica,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,50,50,0,0,0,0,0,0,291.7,Full migrant,92.5,5.4,8.1,53.2,210.1,74,56.6,Wetland,Aquatic predator,Terrestrial
+Limosa_limosa,60,0,10,10,0,0,10,0,10,0,Invertebrate,0,50,50,0,0,0,0,0,0,288.4,Full migrant,113.5,6,10,78,215.6,78,51.5,Wetland,Aquatic predator,Terrestrial
+Linaria_cannabina,20,0,0,0,0,0,20,0,60,0,PlantSeed,0,0,60,20,20,0,0,0,0,19.5,Resident,12.4,5,6.6,15.7,78.4,56.2,34.4,Shrubland,Granivore,Terrestrial
+Linaria_flavirostris,20,0,0,0,0,0,0,0,40,40,PlantSeed,0,0,50,50,0,0,0,0,0,15.4,Full migrant,9.3,4.6,5.8,14.7,75.9,64.8,31.9,Grassland,Granivore,Insessorial
+Locustella_luscinioides,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,40,60,0,0,0,0,0,13.9,Full migrant,15.6,2.7,3,20.8,70.2,54.2,30.1,Wetland,Invertivore,Generalist
+Locustella_naevia,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,40,60,0,0,0,0,0,13.3,Full migrant,14.7,2.6,2.9,20,64.1,56.5,25.4,Shrubland,Invertivore,Generalist
+Lophophanes_cristatus,60,0,0,0,0,0,20,0,20,0,Invertebrate,0,0,10,10,20,60,0,0,0,11,Resident,11.3,2.6,3.1,17.1,64,51.4,19.8,Woodland,Invertivore,Insessorial
+Loxia_curvirostra,20,0,0,0,0,0,0,0,30,50,PlantSeed,0,0,0,0,80,20,0,0,0,38.3,Partial migrant,19,6.8,11.4,16.6,96,57.3,37.6,Forest,Granivore,Insessorial
+Loxia_pytyopsittacus,10,0,0,0,0,0,0,0,60,30,PlantSeed,0,0,0,50,50,0,0,0,0,53,Partial migrant,21.3,9.2,13.7,17.4,103,66,36.6,Forest,Granivore,Insessorial
+Loxia_scotica,10,0,0,0,0,0,0,0,70,20,PlantSeed,0,0,0,0,80,20,0,0,0,43.2,Partial migrant,20,7.4,12.1,16.9,97.4,61.5,34.5,Forest,Granivore,Insessorial
+Lullula_arborea,50,0,0,0,0,0,0,0,30,20,Omnivore,0,0,100,0,0,0,0,0,0,26.9,Partial migrant,14.4,3.4,3.8,21.4,94.2,52.7,27.7,Woodland,Omnivore,Terrestrial
+Luscinia_megarhynchos,70,0,0,0,0,0,20,0,10,0,Invertebrate,0,0,70,30,0,0,0,0,0,19.6,Full migrant,16,3.5,3.7,26.4,84,68.2,27.6,Woodland,Invertivore,Generalist
+Luscinia_svecica,60,0,10,0,0,0,20,0,10,0,Invertebrate,0,0,50,50,0,0,0,0,0,17.2,Full migrant,15.1,3.2,3.2,26.3,73.1,50,21.3,Grassland,Invertivore,Generalist
+Mareca_penelope,0,0,0,0,0,0,0,0,20,80,PlantSeed,0,50,50,0,0,0,0,0,0,770,Full migrant,38.5,15.5,12.4,35.5,250.6,89.7,57.2,Wetland,Omnivore,Terrestrial
+Mareca_strepera,0,0,0,0,0,0,0,0,30,70,PlantSeed,0,80,20,0,0,0,0,0,0,915.6,Partial migrant,48.7,16.5,13.7,36.5,251.3,83,54.8,Wetland,Herbivore aquatic,Aquatic
+Melanocorypha_calandra,50,0,0,0,0,0,0,0,30,20,Omnivore,0,0,100,0,0,0,0,0,0,61.6,Partial migrant,18.7,5.4,8.2,27.1,124,61.6,37.2,Grassland,Omnivore,Terrestrial
+Merops_apiaster,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,40,60,0,0,0,0,56.6,Full migrant,41.8,8.4,8.2,12.9,143.8,102.3,45.5,Woodland,Invertivore,Insessorial
+Mergus_merganser,10,10,10,70,0,0,0,0,0,0,VertFishScav,80,20,0,0,0,0,0,0,0,1451,Full migrant,69.4,10.4,11.7,50.9,270.8,107.2,46,Riverine,Aquatic predator,Aquatic
+Milvus_migrans,0,10,10,10,0,70,0,0,0,0,VertFishScav,0,20,60,0,0,0,20,0,0,734.1,Full migrant,40,13,17.4,51.4,457.4,269.5,48.1,Woodland,Omnivore,Aerial
+Milvus_milvus,0,30,0,0,0,70,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,1071.8,Partial migrant,40.2,13.2,18.7,52.9,481.5,317.3,49.9,Shrubland,Omnivore,Generalist
+Monticola_saxatilis,80,0,10,0,0,0,10,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,50.3,Full migrant,25.2,4.9,5.3,27.9,120.8,62,36.2,Rock,Invertivore,Insessorial
+Monticola_solitarius,40,10,20,0,0,0,20,0,10,0,Omnivore,0,0,80,0,20,0,0,0,0,53.7,Partial migrant,28.1,5.3,6,28.3,121.1,84.6,29.5,Rock,Omnivore,Insessorial
+Motacilla_alba,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,23.9,Full migrant,16.1,3.4,3.5,23.4,87,86.8,31.4,Human Modified,Invertivore,Terrestrial
+Motacilla_flava,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,100,0,0,0,0,0,0,17.7,Full migrant,16,3.2,3.5,23.1,79.5,70.6,31.1,Grassland,Invertivore,Terrestrial
+Muscicapa_striata,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,60,40,0,0,0,0,0,15.9,Full migrant,16.2,4.3,3.6,14.4,86.3,61.2,30.2,Forest,Invertivore,Insessorial
+Neophron_percnopterus,10,20,0,10,0,60,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,2082,Full migrant,61.7,10.4,13.5,77.2,490.8,247.2,48,Grassland,Scavenger,Generalist
+Netta_rufina,0,0,0,0,0,0,0,0,30,70,PlantSeed,50,50,0,0,0,0,0,0,0,1118,Partial migrant,49.9,21.1,14.9,37.2,258.3,69.3,47.5,Wetland,Herbivore aquatic,Aquatic
+Nucifraga_caryocatactes,30,10,0,0,0,0,0,0,60,0,PlantSeed,0,0,40,20,20,20,0,0,0,182.5,Partial migrant,52.1,13.3,14.9,39.3,183.2,116,24.4,Forest,Granivore,Insessorial
+Numenius_arquata,40,0,0,0,0,0,30,0,30,0,Omnivore,0,20,80,0,0,0,0,0,0,803,Full migrant,145.8,8.9,9.7,82.7,292.2,111.3,53.2,Grassland,Aquatic predator,Terrestrial
+Nycticorax_nycticorax,30,20,30,20,0,0,0,0,0,0,VertFishScav,0,50,50,0,0,0,0,0,0,810,Full migrant,80.5,12.1,18.6,69.2,285.7,95.8,33.1,Wetland,Aquatic predator,Terrestrial
+Oenanthe_isabellina,70,0,0,0,10,0,0,0,20,0,Invertebrate,0,0,100,0,0,0,0,0,0,29.4,Full migrant,19.7,4,4.3,29.5,96.9,58,28.8,Shrubland,Invertivore,Insessorial
+Oenanthe_oenanthe,70,0,0,0,0,0,20,0,10,0,Invertebrate,0,0,100,0,0,0,0,0,0,25.4,Full migrant,17.9,3.7,3.7,27.3,95.1,56.7,32.1,Grassland,Invertivore,Insessorial
+Oenanthe_pleschanka,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,60,20,20,0,0,0,0,19.4,Full migrant,16.4,3.2,3.5,22.6,92.8,60.4,28.3,Rock,Invertivore,Insessorial
+Oriolus_oriolus,30,10,10,0,0,0,30,10,10,0,Omnivore,0,0,0,0,0,50,50,0,0,79,Full migrant,28.5,8.9,8.5,22.5,151.6,82.9,38.5,Woodland,Omnivore,Insessorial
+Otis_tarda,40,10,10,0,0,0,0,0,0,40,Omnivore,0,0,80,20,0,0,0,0,0,6759.9,Partial migrant,62.3,15.6,18.5,137.8,550.8,218.3,42.7,Grassland,Omnivore,Terrestrial
+Otus_scops,80,10,10,0,0,0,0,0,0,0,Invertebrate,0,0,80,10,10,0,0,0,1,92,Full migrant,17.4,4.8,8.6,26.6,147.2,65.5,34.7,Woodland,Invertivore,Insessorial
+Pandion_haliaetus,0,0,0,100,0,0,0,0,0,0,VertFishScav,40,60,0,0,0,0,0,0,0,1483.2,Full migrant,47,17.3,19.6,49.8,468.4,201.3,44.9,Marine,Aquatic predator,Aerial
+Parus_major,40,0,0,0,0,10,20,10,20,0,Omnivore,0,0,0,20,60,20,0,0,0,16.3,Resident,11.3,4,4.3,17.4,70.9,61.2,18.7,Woodland,Invertivore,Insessorial
+Passer_montanus,40,0,0,0,0,0,0,0,60,0,PlantSeed,0,0,33,33,33,0,0,0,0,21.4,Resident,13.2,5.5,6.5,16.4,67.9,51,24.6,Woodland,Granivore,Terrestrial
+Pastor_roseus,60,0,0,0,0,0,40,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,73,Full migrant,23,5.2,6.3,30.1,128.9,71,36.8,Grassland,Omnivore,Insessorial
+Periparus_ater,40,0,0,0,0,10,0,10,20,20,Omnivore,0,0,100,0,0,0,0,0,0,9.2,Resident,10.7,3,3.6,15.1,61.1,46.4,21.9,Forest,Invertivore,Insessorial
+Perisoreus_infaustus,30,10,0,0,0,10,30,0,20,0,Omnivore,0,0,40,30,30,0,0,0,0,84.4,Resident,27.5,9.4,9.1,35.9,140.4,128.1,17.4,Forest,Omnivore,Insessorial
+Pernis_apivorus,80,10,10,0,0,0,0,0,0,0,Invertebrate,0,0,0,50,50,0,0,0,0,754.4,Full migrant,34.8,11.7,13.7,43.9,407.4,253.2,37.9,Forest,Invertivore,Insessorial
+Petronia_petronia,30,0,0,0,0,0,30,0,40,0,Omnivore,0,0,60,40,0,0,0,0,0,30.2,Resident,15.7,7,9.1,16.9,93,60.2,33.4,Rock,Granivore,Terrestrial
+Phalacrocorax_carbo,10,0,10,80,0,0,0,0,0,0,VertFishScav,100,0,0,0,0,0,0,0,0,2529,Partial migrant,82.7,13.2,18.3,64.2,340.2,148.2,37.1,Wetland,Aquatic predator,Aquatic
+Phalaropus_lobatus,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,50,50,0,0,0,0,0,0,36.7,Full migrant,24.4,2.5,2.7,18.8,109,50.6,49.6,Wetland,Aquatic predator,Terrestrial
+Phoenicopterus_roseus,50,0,0,10,0,0,0,0,20,20,Omnivore,0,100,0,0,0,0,0,0,0,3031.6,Partial migrant,124.7,26,38.1,294.5,399,138.4,41.6,Wetland,Aquatic predator,Terrestrial
+Phoenicurus_ochruros,60,0,0,0,0,0,30,0,10,0,Invertebrate,0,0,60,40,0,0,0,0,0,16.5,Partial migrant,15.4,2.8,2.9,22.4,83.1,60.4,23.1,Rock,Invertivore,Insessorial
+Phoenicurus_phoenicurus,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,20,40,40,0,0,0,0,14.6,Full migrant,13.9,3.3,3.4,21.6,77.9,58,25.8,Woodland,Invertivore,Insessorial
+Phylloscopus_bonelli,90,0,0,0,0,0,10,0,0,0,Invertebrate,0,0,0,20,0,80,0,0,0,8.7,Full migrant,11.5,2.6,2.3,18.2,63.5,49.8,23.1,Forest,Invertivore,Insessorial
+Phylloscopus_sibilatrix,80,0,0,0,0,0,20,0,0,0,Invertebrate,0,0,0,50,0,50,0,0,0,9.2,Full migrant,13.2,2.8,2.8,18,75.8,50.7,30.9,Forest,Invertivore,Insessorial
+Phylloscopus_trochiloides,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,0,33,33,33,0,0,0,8.1,Full migrant,11.3,3,2.6,18.7,61.3,48.4,19.9,Forest,Invertivore,Insessorial
+Phylloscopus_trochilus,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,0,0,30,70,0,0,0,8.7,Full migrant,12.8,2.6,2.6,19.3,65.9,52.3,25.9,Forest,Invertivore,Insessorial
+Pica_pica,20,20,20,0,0,20,10,0,10,0,VertFishScav,0,0,70,10,10,0,10,0,0,217.5,Resident,40.8,12.4,13.7,49.1,194.5,237.4,22.9,Human Modified,Omnivore,Terrestrial
+Platalea_leucorodia,70,0,10,10,0,0,0,0,0,10,Invertebrate,0,100,0,0,0,0,0,0,0,1868,Partial migrant,190.3,26.3,15.2,129,361.6,118.4,40.4,Wetland,Aquatic predator,Terrestrial
+Plegadis_falcinellus,80,0,10,10,0,0,0,0,0,0,Invertebrate,0,50,50,0,0,0,0,0,0,626.6,Partial migrant,117.2,10.4,13.9,86.4,274.8,102.7,38.9,Wetland,Aquatic predator,Terrestrial
+Pluvialis_squatarola,70,0,0,0,0,0,0,0,10,20,Invertebrate,0,0,100,0,0,0,0,0,0,250,Full migrant,32,5.1,7,44.5,184.4,71.4,60.1,Grassland,Aquatic predator,Terrestrial
+Podiceps_auritus,40,0,0,60,0,0,0,0,0,0,VertFishScav,70,30,0,0,0,0,0,0,0,453,Full migrant,30.2,4.7,7.1,42.9,137.8,33.2,42.2,Wetland,Aquatic predator,Aquatic
+Podiceps_cristatus,30,0,10,60,0,0,0,0,0,0,VertFishScav,70,30,0,0,0,0,0,0,0,731,Resident,57.5,6.6,10.6,60.9,183.6,40.7,42.9,Wetland,Aquatic predator,Aquatic
+Podiceps_grisegena,50,0,0,50,0,0,0,0,0,0,Omnivore,70,30,0,0,0,0,0,0,0,1023,Full migrant,48.1,6.2,10.2,54.4,167.1,32,40.9,Wetland,Aquatic predator,Aquatic
+Podiceps_nigricollis,80,0,10,10,0,0,0,0,0,0,Invertebrate,60,40,0,0,0,0,0,0,0,412.4,Full migrant,26.2,5.5,5.9,39.6,127.2,28,44,Wetland,Aquatic predator,Aquatic
+Poecile_cinctus,60,0,0,0,0,10,0,0,30,0,Invertebrate,0,0,0,0,70,30,0,0,0,11.4,Resident,11,3.4,4.2,14.8,67.3,65.8,19.5,Forest,Invertivore,Insessorial
+Poecile_lugubris,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,0,20,60,20,0,0,0,0,15.8,Resident,12.8,5.1,5.3,19.4,74.6,64.4,15.3,Woodland,Invertivore,Insessorial
+Poecile_montanus,60,0,0,0,0,0,20,0,20,0,Invertebrate,0,0,0,20,80,0,0,0,0,11.1,Resident,11,3.4,4,16.2,65.5,59.3,17.7,Forest,Invertivore,Insessorial
+Poecile_palustris,50,0,0,0,0,0,20,0,20,10,Omnivore,0,0,0,20,80,0,0,0,0,11.1,Resident,9.4,3.3,4.1,15.9,64,54.8,17.9,Forest,Invertivore,Insessorial
+Porphyrio_porphyrio,10,10,10,0,0,0,0,0,30,40,PlantSeed,0,20,60,20,0,0,0,0,0,773.9,Resident,56.2,9.4,21.3,79.9,234.9,85.5,30.5,Wetland,Herbivore aquatic,Terrestrial
+Porzana_porzana,40,0,0,20,0,0,0,0,20,20,Omnivore,0,30,50,20,0,0,0,0,0,87.1,Full migrant,19.8,2.5,5,28.7,112.9,45,34.5,Wetland,Aquatic predator,Terrestrial
+Prunella_modularis,50,0,0,0,0,0,0,0,50,0,Omnivore,0,0,100,0,0,0,0,0,0,20.2,Resident,14,3.7,3.6,20.4,69.1,59.6,21.2,Forest,Invertivore,Terrestrial
+Pterocles_alchata,0,0,0,0,0,0,0,0,70,30,PlantSeed,0,0,70,30,0,0,0,0,0,275.8,Partial migrant,17.9,6.9,9,27.6,194,142,61.5,Grassland,Granivore,Terrestrial
+Pyrrhocorax_pyrrhocorax,50,0,0,0,10,10,10,0,20,0,Omnivore,0,0,70,0,30,0,0,0,0,276.7,Partial migrant,54.6,12.2,12.6,52.5,284.5,133.3,39,Rock,Invertivore,Terrestrial
+Pyrrhula_pyrrhula,10,0,0,0,0,0,10,0,30,50,PlantSeed,0,0,0,50,50,0,0,0,0,24.3,Resident,13.1,8.2,9,18,88.6,68.3,24.9,Forest,Omnivore,Insessorial
+Rallus_aquaticus,20,20,10,10,0,0,10,0,10,20,Omnivore,10,40,40,10,0,0,0,0,0,110.7,Partial migrant,42,3.6,6.1,38.4,114.1,51,30.5,Wetland,Aquatic predator,Terrestrial
+Recurvirostra_avosetta,80,0,0,10,0,0,0,0,0,10,Invertebrate,0,50,50,0,0,0,0,0,0,304,Partial migrant,83.7,6.4,4.7,86.9,217.9,79.4,49.7,Wetland,Aquatic predator,Terrestrial
+Regulus_ignicapilla,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,50,50,0,0,0,0,5.6,Full migrant,10.9,2,2.1,16.5,52.3,39.4,22,Forest,Invertivore,Insessorial
+Regulus_regulus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,50,50,0,0,0,0,5.5,Full migrant,10.6,2.2,2.1,15,52.9,39.3,22,Forest,Invertivore,Insessorial
+Remiz_pendulinus,60,0,0,0,0,0,0,0,40,0,Invertebrate,0,0,33,33,33,0,0,0,0,9.3,Full migrant,10.6,3.1,3.9,13.7,56.1,48.5,19.4,Wetland,Invertivore,Insessorial
+Riparia_riparia,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,40,60,0,0,0,0,12.7,Full migrant,9.4,3.7,2.5,10.5,101.8,47.2,53,Riverine,Invertivore,Aerial
+Saxicola_rubetra,70,0,0,0,0,0,20,0,10,0,Invertebrate,0,0,80,20,0,0,0,0,0,16.6,Full migrant,14.7,3.6,3.8,22.3,76.5,47.3,26.7,Shrubland,Invertivore,Insessorial
+Saxicola_rubicola,70,0,0,0,10,0,10,0,10,0,Invertebrate,0,0,100,0,0,0,0,0,0,14.1,Partial migrant,15.3,3.5,3.4,21.9,67.3,48.3,20.8,Shrubland,Invertivore,Insessorial
+Serinus_serinus,0,0,0,0,0,0,0,0,100,0,PlantSeed,0,0,60,40,0,0,0,0,0,11.2,Partial migrant,9.2,4.6,5.2,13.9,70.8,46.4,29.3,Forest,Granivore,Generalist
+Sitta_europaea,70,0,0,0,0,0,0,10,10,10,Invertebrate,0,0,33,33,33,0,0,0,0,20.4,Resident,20.9,4.8,4.6,20.2,85.4,46.8,23.8,Forest,Invertivore,Insessorial
+Somateria_mollissima,70,0,0,10,0,0,10,0,0,10,Invertebrate,80,20,0,0,0,0,0,0,0,2060.9,Partial migrant,62.1,19.1,16.9,47.5,280.2,88.1,44.9,Marine,Aquatic predator,Aquatic
+Spatula_clypeata,60,0,0,0,0,0,0,0,20,20,Invertebrate,20,80,0,0,0,0,0,0,0,612.6,Full migrant,68.8,18.6,18.7,33.8,226.4,75.1,58,Wetland,Aquatic predator,Aquatic
+Spatula_querquedula,40,0,10,10,0,0,0,0,10,30,Omnivore,100,0,0,0,0,0,0,0,0,325.6,Full migrant,39.2,13.8,12.5,26,188.2,64.2,56.1,Wetland,Herbivore aquatic,Aquatic
+Spinus_spinus,10,0,0,0,0,0,30,0,30,30,PlantSeed,0,0,0,50,50,0,0,0,0,13.2,Resident,12.8,4.5,6.1,12.7,71.6,46.4,36.5,Forest,Granivore,Insessorial
+Sterna_dougallii,10,0,0,90,0,0,0,0,0,0,VertFishScav,100,0,0,0,0,0,0,1,0,112,Full migrant,45.3,3.6,7,19.7,223.8,165.8,69.1,Marine,Aquatic predator,Aerial
+Sterna_hirundo,10,0,0,80,0,10,0,0,0,0,VertFishScav,80,20,0,0,0,0,0,0,0,129.2,Full migrant,44.5,3.8,7,19.5,253.3,129.8,67.3,Marine,Aquatic predator,Aerial
+Sternula_albifrons,40,0,0,60,0,0,0,0,0,0,VertFishScav,100,0,0,0,0,0,0,1,0,57,Full migrant,33.5,3.2,5.8,15.4,169.6,80,69.8,Coastal,Aquatic predator,Aerial
+Streptopelia_decaocto,10,0,0,0,0,0,30,0,40,20,PlantSeed,0,0,80,10,10,0,0,0,0,149,Resident,20.9,3.9,3.9,20.8,173.7,134.2,35.4,Human Modified,Omnivore,Terrestrial
+Streptopelia_turtur,10,0,0,0,0,0,40,0,50,0,Omnivore,0,0,100,0,0,0,0,0,0,132,Full migrant,22.4,4.7,4.9,22.3,170.7,109.7,43.5,Woodland,Granivore,Terrestrial
+Strix_aluco,10,80,10,0,0,0,0,0,0,0,VertFishScav,0,10,70,10,10,0,0,0,1,472.5,Resident,30.4,8.2,15.2,46.4,264.8,171.1,29.3,Forest,Vertivore,Insessorial
+Sturnus_unicolor,20,20,20,0,0,0,10,0,20,10,Omnivore,0,0,50,50,0,0,0,0,0,83.7,Resident,29.1,6.4,6.6,29.4,128.2,62.1,35.9,Forest,Omnivore,Generalist
+Sturnus_vulgaris,20,0,10,0,0,10,30,10,20,0,Omnivore,0,0,80,20,0,0,0,0,0,77.1,Partial migrant,30.2,6.6,6.5,29,128.3,65.8,38.4,Human Modified,Omnivore,Insessorial
+Sylvia_atricapilla,50,0,0,0,0,0,30,10,10,0,Omnivore,0,0,0,0,100,0,0,0,0,16.7,Full migrant,15.2,3.2,3.4,20.8,75.9,62.2,27,Woodland,Omnivore,Insessorial
+Sylvia_borin,50,0,0,0,0,0,40,10,0,0,Omnivore,0,0,0,60,20,20,0,0,0,18.2,Full migrant,15.1,3.5,3.6,20.1,78.7,57.9,30,Woodland,Omnivore,Insessorial
+Tachybaptus_ruficollis,80,0,20,0,0,0,0,0,0,0,Invertebrate,70,30,0,0,0,0,0,0,0,169.4,Resident,23.9,4.4,6.7,35.4,100,29.1,32.2,Wetland,Aquatic predator,Aquatic
+Tachymarptis_melba,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,0,0,10,0,90,0,0,100.4,Full migrant,12.7,4.5,3.2,15.4,219.3,86.2,72.5,Rock,Invertivore,Aerial
+Tadorna_tadorna,70,0,0,20,0,0,0,0,0,10,Invertebrate,0,90,10,0,0,0,0,0,0,1146.8,Partial migrant,54.2,18.4,14.9,51.6,313.9,109.9,51.8,Coastal,Aquatic predator,Generalist
+Tarsiger_cyanurus,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,50,50,0,0,0,0,0,13.4,Full migrant,11.8,3,2.9,21.3,78.5,60.4,24.5,Forest,Invertivore,Generalist
+Tetrastes_bonasia,0,0,0,0,0,0,20,0,10,70,PlantSeed,0,0,100,0,0,0,0,0,0,429,Resident,21.7,9,9.1,35.1,169.4,117.8,33,Woodland,Herbivore terrestrial,Generalist
+Tetrax_tetrax,40,0,0,0,0,0,0,0,30,30,PlantSeed,0,0,80,20,0,0,0,0,0,833.5,Partial migrant,30,7.8,8.6,63.7,239.3,100.3,40.8,Grassland,Omnivore,Terrestrial
+Tichodroma_muraria,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,80,10,10,0,0,0,0,17.6,Partial migrant,31.4,3.2,2.8,22.2,99.5,60.5,19.2,Rock,Invertivore,Insessorial
+Tringa_glareola,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,50,50,0,0,0,0,0,0,62.1,Full migrant,32.5,2.9,3.9,35.1,124,49.2,48.4,Wetland,Aquatic predator,Terrestrial
+Tringa_nebularia,80,10,0,10,0,0,0,0,0,0,Invertebrate,0,60,40,0,0,0,0,0,0,187,Full migrant,63.6,4.1,6,58,185.4,74.8,52.1,Wetland,Aquatic predator,Terrestrial
+Tringa_ochropus,70,0,0,20,0,0,0,0,0,10,Invertebrate,0,50,40,10,0,0,0,0,0,71.4,Full migrant,37.4,2.7,4.1,32.9,137.8,59.5,45.8,Wetland,Aquatic predator,Terrestrial
+Tringa_stagnatilis,60,0,0,20,0,0,0,0,0,20,Invertebrate,0,60,40,0,0,0,0,0,0,77.5,Full migrant,42.5,3,3.6,49.9,133.4,56.2,51.7,Wetland,Aquatic predator,Terrestrial
+Tringa_totanus,80,0,10,10,0,0,0,0,0,0,Invertebrate,0,80,20,0,0,0,0,0,0,129,Full migrant,45.1,3.4,4.9,47.3,156.9,64.1,47.2,Wetland,Aquatic predator,Terrestrial
+Troglodytes_troglodytes,60,0,10,10,0,0,10,0,10,0,Invertebrate,0,0,50,50,0,0,0,0,0,9.7,Full migrant,13.8,2.5,2.7,17.6,48.5,30.5,15.7,Forest,Invertivore,Insessorial
+Turdus_merula,50,0,0,0,10,0,20,0,20,0,Omnivore,0,0,60,20,20,0,0,0,0,102.7,Resident,28.5,5.3,7.5,33.6,128.4,106.3,23.1,Forest,Omnivore,Generalist
+Turdus_philomelos,40,0,0,0,0,0,30,0,30,0,Omnivore,0,0,100,0,0,0,0,0,0,67.7,Full migrant,23.1,5,5.7,31.8,116,81.7,30.7,Forest,Invertivore,Generalist
+Turdus_torquatus,30,0,10,0,0,0,30,0,30,0,Omnivore,0,0,20,40,40,0,0,0,0,109,Full migrant,26.1,5,6.6,32.8,141.6,109.6,31.6,Shrubland,Omnivore,Insessorial
+Turdus_viscivorus,40,0,0,0,0,0,20,0,20,20,Omnivore,0,0,60,20,10,10,0,0,0,117.4,Resident,26.4,5.7,6.9,32.7,153.7,111.8,35.1,Forest,Omnivore,Insessorial
+Tyto_alba,10,80,10,0,0,0,0,0,0,0,VertFishScav,0,0,90,10,0,0,0,0,1,403.3,Resident,32,8.5,13.1,59.6,280.2,118.3,39.7,Human Modified,Vertivore,Insessorial
+Upupa_epops,80,0,20,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,66.9,Full migrant,55.8,5.5,6.3,21.1,142.3,96.9,21.4,Grassland,Invertivore,Terrestrial
+Vanellus_vanellus,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,100,0,0,0,0,0,0,218.4,Partial migrant,28.1,4.6,5.5,48.3,222.5,103.2,40.2,Wetland,Omnivore,Terrestrial
+Xenus_cinereus,60,0,0,0,0,0,0,0,40,0,Invertebrate,0,50,50,0,0,0,0,0,0,78.8,Full migrant,46.8,4,4.5,28.2,127.4,55,54.6,Grassland,Aquatic predator,Terrestrial
+Zapornia_parva,80,0,0,0,0,0,0,0,10,10,Invertebrate,0,50,50,0,0,0,0,0,0,49.7,Full migrant,19.4,2.4,4.7,28.6,100.9,52.9,44,Wetland,Aquatic predator,Terrestrial
+Zapornia_pusilla,70,0,0,10,0,0,0,0,10,10,Invertebrate,0,50,50,0,0,0,0,0,0,35.4,Full migrant,17.4,2.4,4.8,25,84.4,32.2,35.3,Wetland,Aquatic predator,Terrestrial
+Tadorna_ferruginea,10,0,0,0,10,0,0,0,20,60,PlantSeed,0,100,0,0,0,0,0,0,0,1235,Partial migrant,47,18.6,14.4,54.5,355.5,124.7,48.5,Wetland,Omnivore,Terrestrial
+Marmaronetta_angustirostris,20,0,0,0,0,0,0,0,20,60,PlantSeed,50,50,0,0,0,0,0,0,0,477,Partial migrant,46.4,14.8,13.1,32.5,200.7,70.2,47.7,Wetland,Herbivore aquatic,Aquatic
+Clangula_hyemalis,80,0,0,0,0,0,10,0,0,10,Invertebrate,100,0,0,0,0,0,0,0,0,871,Full migrant,32.1,16,11.9,33.1,215.6,130.8,50.9,Wetland,Aquatic predator,Aquatic
+Bucephala_clangula,70,0,0,10,0,0,0,0,10,10,Invertebrate,80,20,0,0,0,0,0,0,0,918.6,Full migrant,38.1,16.1,11.9,34.1,208.7,82,51.4,Wetland,Aquatic predator,Aquatic
+Mergellus_albellus,70,0,0,20,0,0,0,0,0,10,Invertebrate,100,0,0,0,0,0,0,0,0,608.6,Full migrant,32,8.3,9.5,30.2,187.3,70.3,53.8,Wetland,Aquatic predator,Aquatic
+Lagopus_muta,0,0,0,0,0,0,20,0,10,70,PlantSeed,0,0,80,20,0,0,0,0,0,535.3,Resident,18.9,6.8,7.5,30.5,188.6,89.8,46.1,Grassland,Herbivore terrestrial,Terrestrial
+Tetrao_urogallus,0,0,0,0,0,0,10,0,0,90,PlantSeed,0,0,100,0,0,0,0,0,0,2716.6,Resident,48.8,18.2,20.4,61.9,347.3,257.2,33.2,Forest,Herbivore terrestrial,Generalist
+Perdix_perdix,30,0,0,0,0,0,0,0,30,40,PlantSeed,0,0,100,0,0,0,0,0,0,405.3,Resident,20.9,8.4,8.1,39.3,151.2,75.3,33.8,Grassland,Omnivore,Terrestrial
+Pterocles_orientalis,0,0,0,0,0,0,0,0,100,0,PlantSeed,0,0,70,30,0,0,0,0,0,404.9,Partial migrant,19.7,5.7,7,25.7,228.2,90.2,63.7,Grassland,Granivore,Terrestrial
+Burhinus_oedicnemus,50,20,20,0,0,0,0,0,10,0,Omnivore,0,0,80,20,0,0,0,0,0,459,Full migrant,43.1,8.1,9.1,75.1,233.4,116.6,47.7,Grassland,Invertivore,Terrestrial
+Arenaria_interpres,80,0,0,0,0,0,0,0,0,20,Invertebrate,0,0,100,0,0,0,0,0,0,136,Full migrant,25.4,3.9,5.5,25.5,148.8,61,55.6,Coastal,Aquatic predator,Terrestrial
+Numenius_phaeopus,60,0,0,0,0,0,20,0,10,10,Invertebrate,0,20,60,20,0,0,0,0,0,364.6,Full migrant,92.1,6.6,7.7,59.9,233,99.8,53.5,Grassland,Omnivore,Terrestrial
+Lymnocryptes_minimus,80,0,0,0,0,0,0,0,20,0,Invertebrate,0,20,80,0,0,0,0,0,0,50.1,Full migrant,43.2,4.1,6.8,23.3,105.6,49,43.8,Wetland,Aquatic predator,Terrestrial
+Scolopax_rusticola,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,20,80,0,0,0,0,0,0,308.3,Full migrant,76.7,6.5,10,34.2,192.4,84.8,39.4,Forest,Omnivore,Terrestrial
+Gallinago_gallinago,80,0,0,0,0,0,0,0,10,10,Invertebrate,0,20,80,0,0,0,0,0,0,112.9,Full migrant,69.7,4.6,6,30,127.9,54,44.3,Wetland,Aquatic predator,Terrestrial
+Larus_canus,40,0,0,40,0,10,0,0,0,10,Omnivore,20,40,40,0,0,0,0,1,0,412.5,Full migrant,47.8,5.5,10.1,49.4,351,133.8,58.6,Coastal,Omnivore,Terrestrial
+Calonectris_diomedea,40,0,0,40,0,20,0,0,0,0,VertFishScav,50,50,0,0,0,0,0,1,0,535,Full migrant,52.4,10.7,14,51.5,344.2,114.2,64.1,Marine,Aquatic predator,Generalist
+Aegypius_monachus,0,0,0,0,0,100,0,0,0,0,VertFishScav,0,0,100,0,0,0,0,0,0,9320.6,Resident,87.8,27.9,39.8,134.2,734.2,371,41.1,Forest,Scavenger,Terrestrial
+Picus_canus,70,0,0,0,0,0,10,10,10,0,Invertebrate,0,0,100,0,0,0,0,0,0,137,Resident,38.3,7.9,7.1,24.8,146.6,106.7,25.8,Forest,Invertivore,Insessorial
+Bombycilla_garrulus,30,0,0,0,0,0,50,0,0,20,Omnivore,0,0,0,40,40,0,20,0,0,54.4,Full migrant,15.5,5.1,6,20.7,116.2,65.8,37.8,Forest,Omnivore,Insessorial
+Prunella_collaris,80,0,0,0,0,0,10,0,10,0,Invertebrate,0,0,100,0,0,0,0,0,0,38.6,Partial migrant,16.7,4.3,4.2,23.6,100,63.8,28,Grassland,Invertivore,Terrestrial
+Plectrophenax_nivalis,30,0,0,0,0,0,0,0,0,70,PlantSeed,0,0,90,10,0,0,0,0,0,42.2,Full migrant,12.8,4.7,6.4,20.7,107.4,66.8,38.6,Grassland,Granivore,Terrestrial
+Galerida_cristata,40,0,0,0,0,0,0,0,40,20,PlantSeed,0,0,100,0,0,0,0,0,0,42.7,Resident,19.8,4.7,5.4,24.8,103.4,62,26.7,Grassland,Omnivore,Terrestrial
+Eremophila_alpestris,50,0,0,0,0,0,0,0,50,0,Omnivore,0,0,100,0,0,0,0,0,0,33.3,Full migrant,13.9,4.2,5,23.5,108.1,71.4,38.6,Grassland,Omnivore,Terrestrial
+Luscinia_luscinia,70,0,0,0,0,0,10,0,20,0,Invertebrate,0,0,70,30,0,0,0,0,0,23.8,Full migrant,17,3.4,3.9,26.5,89.2,68.2,29.9,Shrubland,Invertivore,Generalist
+Oenanthe_hispanica,60,0,0,0,0,0,20,0,20,0,Invertebrate,0,0,80,10,10,0,0,0,0,15,Full migrant,16.7,3.5,3.6,22.4,87.6,59.3,26.4,Shrubland,Invertivore,Insessorial
+Sitta_neumayer,50,0,0,0,0,0,0,0,50,0,Omnivore,0,0,80,10,10,0,0,0,0,26.5,Resident,22.7,4.5,5,23,80.2,49.3,14.9,Rock,Invertivore,Generalist
+Mergus_serrator,20,0,0,70,0,0,0,0,0,10,VertFishScav,80,20,0,0,0,0,0,0,0,1015.2,Full migrant,65,8.2,10.6,45.5,233.6,76.2,49.3,Wetland,Aquatic predator,Aquatic
+Oxyura_leucocephala,10,0,0,0,0,0,0,0,30,60,PlantSeed,80,20,0,0,0,0,0,0,0,661.1,Resident,48,19.9,13.3,32,148.4,88.2,47,Wetland,Aquatic predator,Aquatic
+Panurus_biarmicus,60,0,0,0,0,0,0,0,40,0,Invertebrate,0,0,40,60,0,0,0,0,0,13.8,Partial migrant,9.2,3.3,3.5,19.5,60,82.4,22.1,Wetland,Invertivore,Insessorial
+Acrocephalus_agricola,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,50,50,0,0,0,0,0,0,9.6,Full migrant,13.6,3.2,2.8,21.1,55.2,54.9,18.4,Wetland,Invertivore,Insessorial
+Anser_erythropus,0,0,0,0,0,0,0,0,0,100,PlantSeed,0,20,80,0,0,0,0,0,0,1755.5,Full migrant,40.9,15.5,13.7,61.2,369,112.4,53.1,Grassland,Herbivore terrestrial,Terrestrial
+Iduna_caligata,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8.9,Full migrant,12,2.8,2.6,19.3,59.4,45.6,17,Shrubland,Invertivore,Insessorial
+Pluvialis_fulva,70,0,0,0,0,0,10,0,10,10,Invertebrate,0,0,80,20,0,0,0,0,0,134.9,Full migrant,25.2,4.2,5.2,40.2,159,58.4,59.3,Grassland,Omnivore,Terrestrial
+Branta_ruficollis,0,0,0,0,0,0,0,0,0,100,PlantSeed,0,20,80,0,0,0,0,0,0,1226.5,Full migrant,28.5,14.1,10.8,54.9,345.6,101,53.2,Grassland,Herbivore terrestrial,Terrestrial
+Thalasseus_bengalensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,209,Full migrant,58.5,5.8,9.8,24.5,293.2,134.4,69.4,Coastal,Aquatic predator,Aerial
+Glareola_nordmanni,100,0,0,0,0,0,0,0,0,0,Invertebrate,0,0,33,33,33,0,0,0,0,97.2,Full migrant,19.9,5.2,5.9,35.8,196,97.4,61.4,Grassland,Invertivore,Aerial
