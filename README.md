@@ -57,3 +57,22 @@ install.packages(c("mFD", "ade4"))
 
 # Data Processing and Parallelization
 install.packages(c("tidyverse", "data.table", "fastDummies", "doParallel", "foreach", "correlation"))
+
+## 📝 Authors and Citation
+
+**Research Team:**
+* Camilo Matus-Olivares
+* José Ramón González-Olabarria
+* Fulgencio Lisón
+* María V. Jiménez-Franco
+* Marcelo Miranda-Cavallieri
+* Carolina Allendes-Muñoz
+* Felipe Ulloa-Fierro
+* Jordi Garcia-Gonzalo
+* Jaime Carrasco-Barra
+
+**If you use this code or derived data, please cite the original article:**
+> *Matus-Olivares, C., González-Olabarria, J. R., Lisón, F., Jiménez-Franco, M. V., Miranda-Cavallieri, M., Allendes-Muñoz, C., Ulloa-Fierro, F., Garcia-Gonzalo, J., & Carrasco-Barra, J. (2026). Fire-syndrome-driven shifts in community and functional diversity of European vertebrate aerofauna in the early 21st century. [Journal Name: pending]. DOI: [pending]*
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
