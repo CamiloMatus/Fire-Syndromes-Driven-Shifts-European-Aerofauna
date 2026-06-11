@@ -20,9 +20,9 @@ The workflow is divided into 6 sequential stages, separated by taxonomic groups 
 * **`1predictorsEurope/`**: Download, processing, and alignment of baseline environmental variables (WorldClim bioclimatic data, elevation, and ESA WorldCover land-use data).
 * **`2fireSyndromes/`**: Processing of historical fire perimeters and integration of the *Pyromes* and *Macro-Pyromes* classifications.
 * **`3birdRecordsProcess/` & `3batRecordsProcess/`**: Taxonomic and spatial cleaning of occurrence records (eBird, GBIF, and custom datasets). This includes phenological filtering, presence rasterization, and spatial sampling bias calculation (`sampbias`).
-* **`04modelingDataBirds/` & `04modelingDataBats/`**: Integration of all spatial layers (predictors, fire syndromes, sampling bias, and presences) into unified tabular data matrices (CSV) ready for modeling.
-* **`05modelEvaluationBirds/` & `05modelEvaluationBats/`**: Spatial cross-validation (`blockCV`), hyperparameter optimization to prevent overfitting, predictive performance evaluation (AUC, Boyce, TSS), and relative Variable Importance calculations for all three model types (Baseline, Pyromes, Macro-Pyromes).
-* **`06SDMs_projections_and_functional_diversity/` (Birds & Bats)**: Generation of binary distribution maps using optimal thresholds and parallelized computation of community functional diversity metric using the `mFD` package.
+* **`4modelingDataBirds/` & `4modelingDataBats/`**: Integration of all spatial layers (predictors, fire syndromes, sampling bias, and presences) into unified tabular data matrices (CSV) ready for modeling.
+* **`5modelEvaluationBirds/` & `5modelEvaluationBats/`**: Spatial cross-validation (`blockCV`), hyperparameter optimization to prevent overfitting, predictive performance evaluation (AUC, Boyce, TSS), and relative Variable Importance calculations for all three model types (Baseline, Pyromes, Macro-Pyromes).
+* **`6SDMs_projections_and_functional_diversity/` (Birds & Bats)**: Generation of binary distribution maps using optimal thresholds and parallelized computation of community functional diversity metric using the `mFD` package.
 
 ## ⚙️ Prerequisites and Raw Data (Inputs)
 
