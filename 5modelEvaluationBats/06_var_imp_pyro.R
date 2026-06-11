@@ -16,29 +16,29 @@ only_zeros <- function(x) {
 dir.create("./var_imp", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
-species_list <- names(db)[3:296]
+db <- read.csv("../4modelingDataBats/data_for_modeling.csv") |> na.omit()
+species_list <- names(db)[1:31]
 
-# select environment variables and convert pyrome_consensus to factor
+# select environment variables and convert pyrome consensus to factor
 base_predictors <- c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
                      "prop_trees", "prop_shrubs", "prop_grasslands",
                      "prop_crops", "prop_built", "prop_bare_soil",
-                     "prop_water", "prop_wetlands", "pyrome_consensus", "samp_bias")
+                     "prop_water", "prop_wetlands", "Pyrome_Consenso", "samp_bias")
 
 env_vars <- db[, base_predictors]
-env_vars$pyrome_consensus <- as.factor(env_vars$pyrome_consensus)
+env_vars$Pyrome_Consenso <- as.factor(env_vars$Pyrome_Consenso)
 
 # create dummy variables for pyromes
 env_vars_dummy <- dummy_cols(env_vars, 
-                             select_columns = "pyrome_consensus", 
+                             select_columns = "Pyrome_Consenso", 
                              remove_selected_columns = TRUE)
 
-db <- cbind(db, env_vars_dummy[, c("pyrome_consensus_1", "pyrome_consensus_2",
-                                   "pyrome_consensus_3", "pyrome_consensus_4", 
-                                   "pyrome_consensus_5", "pyrome_consensus_6", 
-                                   "pyrome_consensus_7", "pyrome_consensus_8",
-                                   "pyrome_consensus_9", "pyrome_consensus_10", 
-                                   "pyrome_consensus_11")])
+db <- cbind(db, env_vars_dummy[, c("Pyrome_Consenso_1", "Pyrome_Consenso_2",
+                                   "Pyrome_Consenso_3", "Pyrome_Consenso_4", 
+                                   "Pyrome_Consenso_5", "Pyrome_Consenso_6", 
+                                   "Pyrome_Consenso_7", "Pyrome_Consenso_8",
+                                   "Pyrome_Consenso_9", "Pyrome_Consenso_10", 
+                                   "Pyrome_Consenso_11")])
 
 # evaluate variable importance per species
 for (spp in species_list) {
@@ -46,11 +46,11 @@ for (spp in species_list) {
     names_ev <- c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
                   "prop_trees", "prop_shrubs", "prop_grasslands",
                   "prop_crops", "prop_built", "prop_bare_soil",
-                  "prop_water", "prop_wetlands", "pyrome_consensus_1", 
-                  "pyrome_consensus_2", "pyrome_consensus_3", "pyrome_consensus_4", 
-                  "pyrome_consensus_5", "pyrome_consensus_6", "pyrome_consensus_7", 
-                  "pyrome_consensus_8", "pyrome_consensus_9", "pyrome_consensus_10", 
-                  "pyrome_consensus_11", "samp_bias")
+                  "prop_water", "prop_wetlands", "Pyrome_Consenso_1", 
+                  "Pyrome_Consenso_2", "Pyrome_Consenso_3", "Pyrome_Consenso_4", 
+                  "Pyrome_Consenso_5", "Pyrome_Consenso_6", "Pyrome_Consenso_7", 
+                  "Pyrome_Consenso_8", "Pyrome_Consenso_9", "Pyrome_Consenso_10", 
+                  "Pyrome_Consenso_11", "samp_bias")
                               
     message(paste("working on", spp, "-", which(species_list == spp), "of", length(species_list)))
     
@@ -60,7 +60,7 @@ for (spp in species_list) {
     for (replication in 1:nrep) {
         
         # load random pseudo-absences used in model evaluation
-        rp_path <- paste0("../05modelEvaluationBirds/random_pseudo_absences_pyro/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
+        rp_path <- paste0("./random_pseudo_absences_pyro/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
         rp <- read.csv(rp_path)
         
         # subset data for model fitting

@@ -14,17 +14,22 @@ only_zeros <- function(x) {
 dir.create("./predictions", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBats/data_for_modeling.csv") |> na.omit()
-species_list <- names(db)[1:31]
+db <- read.csv("../4modelingDataBirds/data_for_modeling.csv") |> na.omit()
+species_list <- names(db)[3:296]
 
-db$Pyrome_Consenso <- as.factor(db$Pyrome_Consenso)
+env_vars <- db[, c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
+                   "prop_trees", "prop_shrubs", "prop_grasslands",
+                   "prop_crops", "prop_built", "prop_bare_soil",
+                   "prop_water", "prop_wetlands", "macro_pyro", "samp_bias")]
 
-env_vars_dummy <- dummy_cols(db, 
-                             select_columns = "Pyrome_Consenso", 
+env_vars$macro_pyro <- as.factor(env_vars$macro_pyro)
+
+env_vars_dummy <- dummy_cols(env_vars, 
+                             select_columns = "macro_pyro", 
                              remove_selected_columns = TRUE)
 
-# update main db with dummy pyromes
-db <- env_vars_dummy
+db <- cbind(db, env_vars_dummy[, c("macro_pyro_M1", "macro_pyro_M2", 
+                                   "macro_pyro_M3", "macro_pyro_M4", "macro_pyro_M5")])
 
 # generate predictions by species
 for(spp in species_list) {
@@ -32,19 +37,15 @@ for(spp in species_list) {
     names_ev <- c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
                   "prop_trees", "prop_shrubs", "prop_grasslands",
                   "prop_crops", "prop_built", "prop_bare_soil",
-                  "prop_water", "prop_wetlands",
-                  "Pyrome_Consenso_1", "Pyrome_Consenso_2", "Pyrome_Consenso_3", 
-                  "Pyrome_Consenso_4", "Pyrome_Consenso_5", "Pyrome_Consenso_6", 
-                  "Pyrome_Consenso_7", "Pyrome_Consenso_8", "Pyrome_Consenso_9", 
-                  "Pyrome_Consenso_10", "Pyrome_Consenso_11", "samp_bias")
+                  "prop_water", "prop_wetlands", "macro_pyro_M1",
+                  "macro_pyro_M2", "macro_pyro_M3", "macro_pyro_M4", 
+                  "macro_pyro_M5", "samp_bias")
 
-    message(paste("working on", spp, "-", which(species_list == spp), "of", length(species_list)))
-
-    if(sum(db[, spp]) < 250) { nrep <- 10 } else { nrep <- 1 }
+    if(sum(db[, spp]) < 150) { nrep <- 10 } else { nrep <- 1 }
   
     for (replication in 1:nrep) {
         
-        rp_path <- paste0("../05modelEvaluationBats/random_pseudo_absences_pyro/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
+        rp_path <- paste0("../05modelEvaluationBirds/random_pseudo_absences_macro_pyro/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
         rp <- read.csv(rp_path)
         
         dat_1 <- db[row.names(db) %in% rp$x, ]
@@ -99,22 +100,20 @@ for(spp in species_list) {
     d_h$x <- db$x
     d_h$y <- db$y
     
-    out_file <- paste0("./predictions/predictions_pyro_", spp, ".csv")
+    out_file <- paste0("./predictions/predictions_macro_pyro_", spp, ".csv")
     write.csv(d_h, file = out_file, row.names = FALSE)
 }
 
 # correction for estimates = 1 in pyromes where the species had no observations
 for(u in species_list) {
 
-    d_con <- db[db[, u] == 1, c(u, "Pyrome_Consenso_1", "Pyrome_Consenso_2",
-                                "Pyrome_Consenso_3", "Pyrome_Consenso_4", "Pyrome_Consenso_5",
-                                "Pyrome_Consenso_6", "Pyrome_Consenso_7", "Pyrome_Consenso_8",
-                                "Pyrome_Consenso_9", "Pyrome_Consenso_10", "Pyrome_Consenso_11")]
+    d_con <- db[db[, u] == 1, c(u, "macro_pyro_M1", "macro_pyro_M2", 
+                                "macro_pyro_M3", "macro_pyro_M4", "macro_pyro_M5")]
 
     if(TRUE %in% sapply(d_con, only_zeros) == TRUE) {
         
-        d_h <- read.csv(paste0("./predictions/predictions_pyro_", u, ".csv"))
-        write.csv(d_h, paste0("./predictions/predictions_pyro_backup_", u, ".csv"), row.names = FALSE)
+        d_h <- read.csv(paste0("./predictions/predictions_macro_pyro_", u, ".csv"))
+        write.csv(d_h, paste0("./predictions/predictions_macro_pyro_backup_", u, ".csv"), row.names = FALSE)
         
         vars_h <- names(which(sapply(d_con, only_zeros)))
         
@@ -123,6 +122,6 @@ for(u in species_list) {
             d_h[row.names(d_h2[d_h2[, 7] == 1, ]), 4] <- 0
         }
         
-        write.csv(d_h, file = paste0("./predictions/predictions_pyro_", u, ".csv"), row.names = FALSE)
+        write.csv(d_h, file = paste0("./predictions/predictions_macro_pyro_", u, ".csv"), row.names = FALSE)
     }
 }

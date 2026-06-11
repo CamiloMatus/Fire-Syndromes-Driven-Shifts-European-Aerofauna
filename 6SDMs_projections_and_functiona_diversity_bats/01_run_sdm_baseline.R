@@ -14,8 +14,8 @@ only_zeros <- function(x) {
 dir.create("./predictions", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
-species_list <- names(db)[3:296]
+db <- read.csv("../4modelingDataBats/data_for_modeling.csv") |> na.omit()
+species_list <- names(db)[1:31]
 
 # generate predictions by species
 for(spp in species_list) {
@@ -25,12 +25,14 @@ for(spp in species_list) {
                   "prop_crops", "prop_built", "prop_bare_soil",
                   "prop_water", "prop_wetlands", "samp_bias")
 
-    if(sum(db[, spp]) < 150) { nrep <- 10 } else { nrep <- 1 }
+    message(paste("working on", spp, "-", which(species_list == spp), "of", length(species_list)))
+
+    if(sum(db[, spp]) < 250) { nrep <- 10 } else { nrep <- 1 }
   
     for (replication in 1:nrep) {
         
         # load random pseudo-absences used in model evaluation
-        rp_path <- paste0("../05modelEvaluationBirds/random_pseudo_absences_baseline/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
+        rp_path <- paste0("../05modelEvaluationBats/random_pseudo_absences_baseline/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
         rp <- read.csv(rp_path)
         
         dat_1 <- db[row.names(db) %in% rp$x, ]

@@ -7,7 +7,7 @@ require(stringr)
 require(foreach)
 require(doParallel)
 
-db_spp <- read.csv("../04modelingDataBats/data_for_modeling.csv") |> na.omit()
+db_spp <- read.csv("../4modelingDataBats/data_for_modeling.csv") |> na.omit()
 species_list <- names(db_spp)[1:31]
 
 # load and filter traits dataset

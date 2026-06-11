@@ -6,7 +6,7 @@ require(stringr)
 require(foreach)
 require(doParallel)
 
-db_ref <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
+db_ref <- read.csv("../4modelingDataBirds/data_for_modeling.csv") |> na.omit()
 species_list <- names(db_ref)[3:296]
 
 # load and filter traits dataset
@@ -56,14 +56,14 @@ fspaces_quality <- mFD::quality.fspaces(
 
 # save quality metrics
 dir.create("./final_tabs", showWarnings = FALSE)
-sink("./final_tabs/quality_fs_baseline.txt")
+sink("./final_tabs/quality_fs_pyro.txt")
 print(fspaces_quality$quality_fspaces)
 sink()
 
 # retrieving principal coordinates
 pco <- dudi.pco(dist_trait, scann = FALSE)
 
-sink("./final_tabs/summary_pco_baseline.txt")
+sink("./final_tabs/summary_pco_pyro.txt")
 inertia.dudi(pco)
 sink()
 
@@ -73,7 +73,7 @@ row.names(sp_faxes) <- row.names(pco$tab)
 
 # making df estimates in each geographic grid
 files <- list.files("./predictions")
-files <- files[str_detect(files, "predictions_baseline_")]
+files <- files[str_detect(files, "predictions_pyro_")]
 
 for(i in 1:length(files)) {
     f_h <- files[i]
@@ -83,7 +83,7 @@ for(i in 1:length(files)) {
     if(i == 1) { out <- c_h } else { out <- cbind(out, c_h) }
 }
 
-nf <- str_remove(files, "predictions_baseline_")
+nf <- str_remove(files, "predictions_pyro_")
 nf2 <- str_remove(nf, "\\.csv")
 nf3 <- str_replace(nf2, "_", " ")
 names(out) <- nf3
@@ -105,7 +105,7 @@ db$fori <- NA
 db$fspe <- NA
 
 # processing functional diversity predictions
-output_file <- "func_div_predictions_baseline_incremental.csv"
+output_file <- "func_div_predictions_pyro_incremental.csv"
 chunk_size <- 500 
 
 write.csv(db[0, ], file = output_file, row.names = FALSE)

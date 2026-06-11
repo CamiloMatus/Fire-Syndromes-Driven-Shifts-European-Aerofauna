@@ -14,7 +14,7 @@ only_zeros <- function(x) {
 dir.create("./predictions", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBats/data_for_modeling.csv") |> na.omit()
+db <- read.csv("../4modelingDataBats/data_for_modeling.csv") |> na.omit()
 species_list <- names(db)[1:31]
 
 db$macro_pyro <- as.factor(db$macro_pyro)

@@ -14,7 +14,7 @@ only_zeros <- function(x) {
 dir.create("./predictions", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
+db <- read.csv("../4modelingDataBirds/data_for_modeling.csv") |> na.omit()
 species_list <- names(db)[3:296]
 
 env_vars <- db[, c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",

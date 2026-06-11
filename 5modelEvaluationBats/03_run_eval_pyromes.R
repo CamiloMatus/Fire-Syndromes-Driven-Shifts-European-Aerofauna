@@ -10,7 +10,7 @@ require(foreign)
 source("fun_hp_pyro.R")
 
 # read modeling data
-db <- read.csv("../04modelingDataBats/data_for_modeling.csv")
+db <- read.csv("../4modelingDataBats/data_for_modeling.csv")
 
 species <- names(db)[1:31]
 

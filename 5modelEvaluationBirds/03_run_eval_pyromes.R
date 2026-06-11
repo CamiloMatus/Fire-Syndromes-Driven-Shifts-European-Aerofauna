@@ -12,7 +12,7 @@ library(correlation)
 source("fun_hp_pyro.R")
 
 # read modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv")
+db <- read.csv("../4modelingDataBirds/data_for_modeling.csv")
 
 species <- names(db)[3:296]
 

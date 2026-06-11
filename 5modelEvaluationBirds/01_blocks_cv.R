@@ -6,17 +6,16 @@ require(tidyverse)
 require(terra)
 
 # set up parallel processing cluster
-cl <- makeCluster(5)
+cl <- makeCluster(10)
 registerDoParallel(cl)
 
 # load modeling data and reference raster from previous step
-modeling_data <- read.csv("../04modelingDataBats/data_for_modeling.csv")
-ref_raster <- rast("../04modelingDataBats/data_for_modeling.tif")
+modeling_data <- read.csv("../4modelingDataBirds/data_for_modeling.csv")
+ref_raster <- rast("../4modelingDataBirds/data_for_modeling.tif")
 
-# convert to spatial vector
-# assuming first 31 columns are species based on the bats modeling data structure
+# convert to spatial vector and extract species names
 data_vect <- vect(modeling_data, geom = c("x", "y"), crs = crs(ref_raster))
-species_list <- names(data_vect)[1:31]
+species_list <- names(data_vect)[1:294]
 
 # convert to sf object for blockcv compatibility
 data_sf <- st_as_sf(data_vect)
@@ -33,7 +32,8 @@ foreach(sp_name = species_list, .packages = "blockCV", .combine = "c") %dopar% {
         size = 200000,
         k = 5,
         plot = FALSE,
-        selection = "systematic"
+        selection = "systematic",
+        iteration = 1000
     )
 
     blocks_df <- data.frame(spatial_blocks$biomod_table)

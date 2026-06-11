@@ -16,7 +16,7 @@ only_zeros <- function(x) {
 dir.create("./var_imp", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
+db <- read.csv("../4modelingDataBirds/data_for_modeling.csv") |> na.omit()
 species_list <- names(db)[3:296]
 
 # select environment variables and convert macro_pyro to factor

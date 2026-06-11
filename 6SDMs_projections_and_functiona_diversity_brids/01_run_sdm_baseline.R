@@ -14,44 +14,30 @@ only_zeros <- function(x) {
 dir.create("./predictions", showWarnings = FALSE)
 
 # load modeling data
-db <- read.csv("../04modelingDataBirds/data_for_modeling.csv") |> na.omit()
+db <- read.csv("../4modelingDataBirds/data_for_modeling.csv") |> na.omit()
 species_list <- names(db)[3:296]
-
-env_vars <- db[, c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
-                   "prop_trees", "prop_shrubs", "prop_grasslands",
-                   "prop_crops", "prop_built", "prop_bare_soil",
-                   "prop_water", "prop_wetlands", "macro_pyro", "samp_bias")]
-
-env_vars$macro_pyro <- as.factor(env_vars$macro_pyro)
-
-env_vars_dummy <- dummy_cols(env_vars, 
-                             select_columns = "macro_pyro", 
-                             remove_selected_columns = TRUE)
-
-db <- cbind(db, env_vars_dummy[, c("macro_pyro_M1", "macro_pyro_M2", 
-                                   "macro_pyro_M3", "macro_pyro_M4", "macro_pyro_M5")])
 
 # generate predictions by species
 for(spp in species_list) {
-
+  
     names_ev <- c("bio1", "bio2", "bio4", "bio8", "bio12", "bio15", "elevation",
                   "prop_trees", "prop_shrubs", "prop_grasslands",
                   "prop_crops", "prop_built", "prop_bare_soil",
-                  "prop_water", "prop_wetlands", "macro_pyro_M1",
-                  "macro_pyro_M2", "macro_pyro_M3", "macro_pyro_M4", 
-                  "macro_pyro_M5", "samp_bias")
+                  "prop_water", "prop_wetlands", "samp_bias")
 
     if(sum(db[, spp]) < 150) { nrep <- 10 } else { nrep <- 1 }
   
     for (replication in 1:nrep) {
         
-        rp_path <- paste0("../05modelEvaluationBirds/random_pseudo_absences_macro_pyro/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
+        # load random pseudo-absences used in model evaluation
+        rp_path <- paste0("../05modelEvaluationBirds/random_pseudo_absences_baseline/randomPseudoAbs_Replication_", replication, "_", spp, ".csv")
         rp <- read.csv(rp_path)
         
         dat_1 <- db[row.names(db) %in% rp$x, ]
         dat_2 <- db[db[, spp] == 1, ]
         dat_h <- rbind(dat_1, dat_2)
 
+        # filter out variables with only zero values
         cols_all_zeros <- names(which(sapply(dat_h, only_zeros)))
         dat_h <- dat_h[, !names(dat_h) %in% cols_all_zeros]
         names_ev <- names_ev[!names_ev %in% cols_all_zeros]
@@ -69,6 +55,7 @@ for(spp in species_list) {
             if(names_ev[e] != "samp_bias") {
                 values(r_h) <- db[, names_ev[e]]
             } else {
+                # samprate equal to 0 for sampling bias mitigation
                 values(r_h) <- rep(0, nrow(db))
             }
             s_list[[e]] <- r_h 
@@ -88,6 +75,8 @@ for(spp in species_list) {
     }
 
     d_h <- data.frame(1:nrow(db), db[, spp], pred_mean)
+    
+    # compute optimal threshold
     th <- optimal.thresholds(d_h, opt.methods = 3, threshold = 1000)[2] |> as.numeric()
     
     d_h$bin <- 0
@@ -100,28 +89,6 @@ for(spp in species_list) {
     d_h$x <- db$x
     d_h$y <- db$y
     
-    out_file <- paste0("./predictions/predictions_macro_pyro_", spp, ".csv")
+    out_file <- paste0("./predictions/predictions_baseline_", spp, ".csv")
     write.csv(d_h, file = out_file, row.names = FALSE)
-}
-
-# correction for estimates = 1 in pyromes where the species had no observations
-for(u in species_list) {
-
-    d_con <- db[db[, u] == 1, c(u, "macro_pyro_M1", "macro_pyro_M2", 
-                                "macro_pyro_M3", "macro_pyro_M4", "macro_pyro_M5")]
-
-    if(TRUE %in% sapply(d_con, only_zeros) == TRUE) {
-        
-        d_h <- read.csv(paste0("./predictions/predictions_macro_pyro_", u, ".csv"))
-        write.csv(d_h, paste0("./predictions/predictions_macro_pyro_backup_", u, ".csv"), row.names = FALSE)
-        
-        vars_h <- names(which(sapply(d_con, only_zeros)))
-        
-        for(v in 1:length(vars_h)) {
-            d_h2 <- cbind(d_h, db[, vars_h[v]])
-            d_h[row.names(d_h2[d_h2[, 7] == 1, ]), 4] <- 0
-        }
-        
-        write.csv(d_h, file = paste0("./predictions/predictions_macro_pyro_", u, ".csv"), row.names = FALSE)
-    }
 }
