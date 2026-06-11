@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-Pending-blue.svg)](#) 
 [![R](https://img.shields.io/badge/R-4.2+-blue.svg)](https://www.r-project.org/)
 
-This repository contains the source code and analytical workflow for the research article: **"Fire-syndrome-driven shifts in community and functional diversity of European vertebrate aerofauna in the early 21st century"** (Matus-Olivares et al.).
+This repository contains the source code and analytical workflow for the research article: **"Fire-syndrome-driven shifts in community and functional diversity of European vertebrate aerofauna in the early 21st century"**.
 
 ## 📖 Project Overview
 
