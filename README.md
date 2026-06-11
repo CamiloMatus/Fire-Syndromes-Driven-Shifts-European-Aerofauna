@@ -9,7 +9,7 @@ This repository contains the source code and analytical workflow for the researc
 
 This study evaluates how different fire regimes (*Fire Syndromes* or *Pyromes*) influence the spatial distribution, species richness, and functional diversity of vertebrate aerofauna (birds and bats) in Europe during the early 21st century.
 
-Using Species Distribution Models (SDMs) powered by **BART (Bayesian Additive Regression Trees)** algorithms, we contrast baseline models (driven solely by climate and land-use) against fire-extended models that incorporate the typology and probability of fire regimes (*Pyromes* and *Macro-Pyromes*). Finally, we project these distributions to compute Functional Diversity indices (FRic, FDis, FEve, etc.) across multidimensional trait spaces.
+Using Species Distribution Models (SDMs) powered by **BART (Bayesian Additive Regression Trees)** algorithms, we contrast baseline models (driven solely by climate and land-use) against fire-extended models that incorporate the typology and probability of fire regimes (*Pyromes* and *Macro-Pyromes*). Finally, we project these distributions to compute Functional Diversity (Functional richness; FRic) across multidimensional trait spaces.
 
 ## 🗂️ Repository Structure
 
@@ -20,7 +20,7 @@ The workflow is divided into 6 sequential stages, separated by taxonomic groups 
 * **`3birdRecordsProcess/` & `3batRecordsProcess/`**: Taxonomic and spatial cleaning of occurrence records (eBird, GBIF, and custom datasets). This includes phenological filtering, presence rasterization, and spatial sampling bias calculation (`sampbias`).
 * **`04modelingDataBirds/` & `04modelingDataBats/`**: Integration of all spatial layers (predictors, fire syndromes, sampling bias, and presences) into unified tabular data matrices (CSV) ready for modeling.
 * **`05modelEvaluationBirds/` & `05modelEvaluationBats/`**: Spatial cross-validation (`blockCV`), hyperparameter optimization to prevent overfitting, predictive performance evaluation (AUC, Boyce, TSS), and relative Variable Importance calculations for all three model types (Baseline, Pyromes, Macro-Pyromes).
-* **`06SDMs_projections_and_functional_diversity/` (Birds & Bats)**: Generation of binary distribution maps using optimal thresholds and parallelized computation of community functional diversity metrics using the `mFD` package alongside morphological and life-history trait databases.
+* **`06SDMs_projections_and_functional_diversity/` (Birds & Bats)**: Generation of binary distribution maps using optimal thresholds and parallelized computation of community functional diversity metric using the `mFD` package.
 
 ## ⚙️ Prerequisites and Raw Data (Inputs)
 
