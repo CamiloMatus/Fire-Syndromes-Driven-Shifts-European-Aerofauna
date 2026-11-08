@@ -72,7 +72,7 @@ coord_flags <- clean_coordinates(unique_coords,
                                  lon = "LONGITUDE",
                                  lat = "LATITUDE",
                                  species = "species",
-                                 tests = c("capitals", "centroids", "equal",
+                                 tests = c("centroids", "equal",
                                            "gbif", "institutions", "zeros"),
                                  value = "spatialvalid")
 
