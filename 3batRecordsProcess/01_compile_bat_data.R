@@ -35,7 +35,7 @@ final_bat_db <- clean_coordinates(final_bat_db,
                                   lon = "decimalLongitude",
                                   lat = "decimalLatitude",
                                   species = "species",
-                                  tests = c("capitals", "centroids", "equal",
+                                  tests = c("centroids", "equal",
                                             "gbif", "institutions", "zeros"),
                                   value = "clean")
 
