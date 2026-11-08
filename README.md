@@ -19,7 +19,7 @@ The workflow is divided into 6 sequential stages, separated by taxonomic groups 
 
 * **`1predictorsEurope/`**: Download, processing, and alignment of baseline environmental variables (WorldClim bioclimatic data, elevation, and ESA WorldCover land-use data).
 * **`2fireSyndromes/`**: Processing of historical fire perimeters and integration of the *Pyromes* and *Macro-Pyromes* classifications.
-* **`3birdRecordsProcess/` & `3batRecordsProcess/`**: Taxonomic and spatial cleaning of occurrence records (eBird, GBIF, and custom datasets). This includes phenological filtering, presence rasterization, and spatial sampling bias calculation (`sampbias`).
+* **`3birdRecordsProcess/` & `3batRecordsProcess/`**: Taxonomic and spatial cleaning of occurrence records (eBird, GBIF, and custom datasets). This includes coordinate cleaning (`CoordinateCleaner`), phenological filtering, presence rasterization, and spatial sampling bias calculation (`sampbias`).
 * **`4modelingDataBirds/` & `4modelingDataBats/`**: Integration of all spatial layers (predictors, fire syndromes, sampling bias, and presences) into unified tabular data matrices (CSV) ready for modeling.
 * **`5modelEvaluationBirds/` & `5modelEvaluationBats/`**: Spatial cross-validation (`blockCV`), hyperparameter optimization to prevent overfitting, predictive performance evaluation (AUC, Boyce, TSS), and relative Variable Importance calculations for all three model types (Baseline, Pyromes, Macro-Pyromes).
 * **`6SDMs_projections_and_functional_diversity/` (Birds & Bats)**: Generation of binary distribution maps using optimal thresholds and parallelized computation of community functional diversity metric using the `mFD` package.
@@ -48,6 +48,9 @@ This code was developed and tested in **R (v4.2+)**. The following main packages
 ```R
 # Spatial and Raster Data Handling
 install.packages(c("terra", "sf", "geodata"))
+
+# Occurrence Records Cleaning
+install.packages("CoordinateCleaner")
 
 # Modeling and Evaluation
 # 'embarcadero' requires installation from GitHub: remotes::install_github("cjcarlson/embarcadero")
